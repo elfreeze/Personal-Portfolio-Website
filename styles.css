@@ -25,8 +25,8 @@
 }
 .logo a {
   letter-spacing: 3px;
-  font-family: "Rubik Beastly", cursive;
-  font-size: clamp(10px, 3vw, 30px);
+  font-family: 'Rubik Beastly', cursive;
+  font-size: 30px;
   font-weight: bolder;
   color: #c31432;
 }
@@ -36,35 +36,34 @@
 .nav-links a {
   margin: 0 10px;
   color: white;
-  font-family: "Josefin Sans", sans-serif;
-  font-size: clamp(5px, 2vw, 15px);
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
 }
 .nav-links a:hover {
-  color: blue;
+  color: orangered;
 }
 .aboutTab {
-  border-bottom: 5px solid orange;
+  border-bottom: 3px solid orange;
 }
-.aboutTab:hover {
-  color: purple;
-}
+
 .blogTab {
-  border-bottom: 5px solid pink;
-}
-.blogTab:hover {
-  color: purple;
+  border-bottom: 3px solid purple;
 }
 .projectTab {
-  border-bottom: 5px solid red;
-}
-.projectTab:hover {
-  color: maroon;
+  border-bottom: 3px solid red;
 }
 .contactTab {
-  border-bottom: 5px solid black;
+  border-bottom: 3px solid black;
 }
-.contactTab :hover {
-  color: blue;
+
+@media screen and (max-width: 480px) {
+  .logo a {
+    font-size: 15px;
+  }
+  .nav-links a {
+    font-size: 10px;
+    margin: 5px;
+  }
 }
 
 /*----- welcome section styling -----*/
@@ -92,30 +91,30 @@
   background-size: cover;
   background-position: center;
 }
-.img-container{
-    height: 40vh;
-    width: auto;
-    margin-top: 5%;
-    margin-bottom: 0;
+.img-container {
+  height: 40vh;
+  width: auto;
+  margin-top: 5%;
+  margin-bottom: 0;
 }
 .myImg {
-    display: block;
-    height: clamp(50%, 90vh, 90%);
-    width: auto;
-    margin-top: ;
-    border: 5px solid #333;
-    border-radius: 10%;
+  display: block;
+  height: clamp(50%, 90vh, 90%);
+  width: auto;
+  margin-top: ;
+  border: 5px solid #333;
+  border-radius: 10%;
 }
 .welcome-section > h1 {
   margin-bottom: 10px;
   font-size: clamp(30px, 10vw, 50px);
   text-align: center;
-  font-family: "Koh Santepheap", cursive;
+  font-family: 'Koh Santepheap', cursive;
 }
 .welcome-section > p {
   margin: 10px 0;
   font-size: clamp(10px, 5vw, 20px);
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   width: 60%;
 }
 .btn {
@@ -124,15 +123,15 @@
   border: 3px solid white;
   background: #333;
   color: white;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   margin-top: 20px;
   margin-bottom: 30px;
   font-size: 20px;
   border-radius: 10px;
 }
-.btn a{
-    text-decoration: none;
-    color: white;
+.btn a {
+  text-decoration: none;
+  color: white;
 }
 .btn:hover {
   color: #fff;
@@ -145,7 +144,7 @@
   background: url(https://images.pexels.com/photos/2695858/pexels-photo-2695858.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
   background-size: cover;
   color: red;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .projects-section-heading {
@@ -219,7 +218,6 @@
   transition: transform 0.3s ease-out;
 }
 
-
 /*------ contact-section styling ------*/
 .contact-section {
   display: flex;
@@ -290,9 +288,6 @@ footer i {
 }
 /*------ ending of global styling -----*/
 
-
-
-
 /*------ beginning of about page independent styling -----*/
 
 /*------ about-section styling ------*/
@@ -310,30 +305,30 @@ footer i {
   background-size: cover;
   background-position: center;
 }
-.img-container{
-    height: 40vh;
-    width: auto;
-    margin-top: 5%;
-    margin-bottom: 0;
+.img-container {
+  height: 40vh;
+  width: auto;
+  margin-top: 5%;
+  margin-bottom: 0;
 }
 .myImg {
-    display: block;
-    height: clamp(50%, 90vh, 90%);
-    width: auto;
-    margin-top: ;
-    border: 5px solid #333;
-    border-radius: 10%;
+  display: block;
+  height: clamp(50%, 90vh, 90%);
+  width: auto;
+  margin-top: ;
+  border: 5px solid #333;
+  border-radius: 10%;
 }
 .about-section > h1 {
   margin-bottom: 10px;
   font-size: clamp(30px, 10vw, 50px);
   text-align: center;
-  font-family: "Koh Santepheap", cursive;
+  font-family: 'Koh Santepheap', cursive;
 }
 .about-section > p {
   margin: 10px 0;
   font-size: clamp(10px, 5vw, 20px);
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   width: 60%;
 }
 .btn {
@@ -342,15 +337,15 @@ footer i {
   border: 3px solid white;
   background: #333;
   color: white;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   margin-top: 20px;
   margin-bottom: 30px;
   font-size: 20px;
   border-radius: 10px;
 }
-.btn a{
-    text-decoration: none;
-    color: white;
+.btn a {
+  text-decoration: none;
+  color: white;
 }
 .btn:hover {
   color: #fff;
@@ -358,7 +353,7 @@ footer i {
 }
 
 /*------ contact-section styling ------*/
-.contact-section {
+.about-contact-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -372,35 +367,22 @@ footer i {
   background-position: center;
 }
 
-.contact-section-header > h2 {
-  margin-top: 50px;
-  font-size: clamp(30px, 10vw, 60px);
-  color: #c31432;
-}
-
-.contact-section-header > p {
-  font-style: italic;
-  font-size: clamp(20px, 5vw, 30px);
-  color: black;
-}
-
-.contact-links {
+.about-contact-links {
   display: flex;
   justify-content: center;
   width: 100%;
-  max-width: 980px;
   margin-top: 20px;
   margin-bottom: 50px;
   flex-wrap: wrap;
 }
 
-.contact-details {
+.about-contact-details {
   margin: 10px 10px;
   font-size: 20px;
   text-shadow: 2px 2px 1px #1f1f1f;
   transition: transform 0.3s ease-out;
 }
 
-.contact-details:hover {
+.about-contact-details:hover {
   transform: translateY(8px);
 }
