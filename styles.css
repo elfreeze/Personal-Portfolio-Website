@@ -188,20 +188,11 @@
     margin-top: 5%;
     margin-bottom: 0;
   }
-  .myImg {
-    display: block;
-    height: 90%;
-    width: auto;
-    margin-top: ;
-    border: 5px solid #333;
-    border-radius: 10%;
-  }
-  
   .welcome-section h1 {
     font-size: 30px;
   }
   .welcome-section p {
-    font-size: 18px;
+    font-size: 15px;
   }
 }
 
