@@ -153,11 +153,11 @@
   font-family: 'Birthstone', cursive;
 }
 .welcome-section > p {
-  margin: 10px 0;
+  margin: 0 auto;
   font-size: 20px;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
-  width: 80%;
+  width: 90%;
 }
 .btn {
   width: 300px;
@@ -182,6 +182,21 @@
   transform: translateY(5px);
 }
 @media screen and (max-width: 480px) {
+  .img-container {
+    height: 20vh;
+    width: auto;
+    margin-top: 5%;
+    margin-bottom: 0;
+  }
+  .myImg {
+    display: block;
+    height: 90%;
+    width: auto;
+    margin-top: ;
+    border: 5px solid #333;
+    border-radius: 10%;
+  }
+  
   .welcome-section h1 {
     font-size: 30px;
   }
