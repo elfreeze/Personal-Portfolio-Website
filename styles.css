@@ -194,6 +194,8 @@
   }
   .welcome-section p {
     font-size: 15px;
+    text-align: justify;
+    width: 80%;
   }
 }
 
