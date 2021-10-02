@@ -7,6 +7,9 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+
+/*------ beginning of global styling -----*/
+
 /*----- navigation menu styling -----*/
 #navbar {
   width: 100%;
@@ -135,7 +138,7 @@
   color: #fff;
   background: #c31432;
 }
-/*----- projects section -----*/
+/*----- projects section styling -----*/
 .projects-section {
   text-align: center;
   padding: 50px 20px;
@@ -215,6 +218,9 @@
   transform: translateX(0);
   transition: transform 0.3s ease-out;
 }
+
+
+/*------ contact-section styling ------*/
 .contact-section {
   display: flex;
   flex-direction: column;
@@ -262,7 +268,7 @@
   transform: translateY(8px);
 }
 
-/*----- Footer section -----*/
+/*------- footer section styling --------*/
 
 footer {
   font-weight: 300;
@@ -282,15 +288,14 @@ footer > p {
 footer i {
   vertical-align: middle;
 }
+/*------ ending of global styling -----*/
 
 
 
 
+/*------ beginning of about page independent styling -----*/
 
-
-
-
-/*------ about page independent styling -----*/
+/*------ about-section styling ------*/
 .about-section {
   text-align: center;
   color: #000;
@@ -350,4 +355,52 @@ footer i {
 .btn:hover {
   color: #fff;
   background: #c31432;
+}
+
+/*------ contact-section styling ------*/
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 50vh;
+  padding: 0 32px;
+  background: url(https://images.pexels.com/photos/2911662/pexels-photo-2911662.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+  background-size: cover;
+  background-position: center;
+}
+
+.contact-section-header > h2 {
+  margin-top: 50px;
+  font-size: clamp(30px, 10vw, 60px);
+  color: #c31432;
+}
+
+.contact-section-header > p {
+  font-style: italic;
+  font-size: clamp(20px, 5vw, 30px);
+  color: black;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 980px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.contact-details {
+  margin: 10px 10px;
+  font-size: 20px;
+  text-shadow: 2px 2px 1px #1f1f1f;
+  transition: transform 0.3s ease-out;
+}
+
+.contact-details:hover {
+  transform: translateY(8px);
 }
