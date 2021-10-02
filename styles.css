@@ -183,7 +183,7 @@
 }
 @media screen and (max-width: 480px) {
   .img-container {
-    height: 20vh;
+    height: 30vh;
     width: auto;
     margin-top: 5%;
     margin-bottom: 0;
