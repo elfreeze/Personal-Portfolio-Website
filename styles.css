@@ -24,9 +24,8 @@
   color: white;
 }
 .logo a {
-  letter-spacing: 3px;
   font-family: 'Birthstone', cursive;
-  font-size: 30px;
+  font-size: 50px;
   font-weight: bolder;
   color: #c31432;
   transition: transform 0.3s ease-out;
@@ -34,20 +33,19 @@
 .logo a:hover {
   color: orange;
   transform: translateY(1px);
-  font-size: 35px;
+  font-size: 52px;
 }
 .nav-links a {
   margin: 0 10px;
-  color: white;
+  color: #c31432;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 20px;
   
 }
 .nav-links a:hover {
-  color: orangered;
+  color: orange;
 }
 .aboutTab {
-  border-bottom: 3px solid orange;
   transition: transform 0.3s ease-out;
 }
 .aboutTab:hover {
@@ -56,7 +54,6 @@
 }
 
 .blogTab {
-  border-bottom: 3px solid purple;
   transition: transform 0.3s ease-out;
 }
 .blogTab:hover {
@@ -64,7 +61,6 @@
   font-size: 22px;
 }
 .projectTab {
-  border-bottom: 3px solid red;
   transition: transform 0.3s ease-out;
 }
 .projectTab:hover {
@@ -72,7 +68,6 @@
   font-size: 22px;
 }
 .contactTab {
-  border-bottom: 3px solid black;
   transition: transform 0.3s ease-out;
 }
 .contactTab:hover {
