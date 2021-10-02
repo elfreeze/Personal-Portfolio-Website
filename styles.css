@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Allison&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&family=Rubik+Beastly&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Birthstone&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&family=Rubik+Beastly&display=swap');
 
 /*----- global attributes -----*/
 * {
@@ -25,44 +25,88 @@
 }
 .logo a {
   letter-spacing: 3px;
-  font-family: 'Rubik Beastly', cursive;
+  font-family: 'Birthstone', cursive;
   font-size: 30px;
   font-weight: bolder;
   color: #c31432;
+  transition: transform 0.3s ease-out;
 }
 .logo a:hover {
   color: orange;
+  transform: translateY(1px);
+  font-size: 35px;
 }
 .nav-links a {
   margin: 0 10px;
   color: white;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 20px;
+  
 }
 .nav-links a:hover {
   color: orangered;
 }
 .aboutTab {
   border-bottom: 3px solid orange;
+  transition: transform 0.3s ease-out;
+}
+.aboutTab:hover {
+  transform: translateY(1px);
+  font-size: 22px;
 }
 
 .blogTab {
   border-bottom: 3px solid purple;
+  transition: transform 0.3s ease-out;
+}
+.blogTab:hover {
+  transform: translateY(1px);
+  font-size: 22px;
 }
 .projectTab {
   border-bottom: 3px solid red;
+  transition: transform 0.3s ease-out;
+}
+.projectTab:hover {
+  transform: translateY(1px);
+  font-size: 22px;
 }
 .contactTab {
   border-bottom: 3px solid black;
+  transition: transform 0.3s ease-out;
+}
+.contactTab:hover {
+  transform: translateY(1px);
+  font-size: 22px;
 }
 
 @media screen and (max-width: 480px) {
   .logo a {
     font-size: 15px;
   }
+  .logo a:hover {
+    transform: translateY(2px);
+    font-size: 18px;
+  }
   .nav-links a {
     font-size: 10px;
     margin: 5px;
+  }
+  .aboutTab:hover {
+    transform: translateY(1px);
+    font-size: 12px;
+  }
+  .blogTab:hover {
+    transform: translateY(1px);
+    font-size: 12px;
+  }
+  .projectTab:hover {
+    transform: translateY(1px);
+    font-size: 12px;
+  }
+  .contactTab:hover {
+    transform: translateY(1px);
+    font-size: 12px;
   }
 }
 
@@ -90,16 +134,17 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 .img-container {
-  height: 40vh;
+  height: 50vh;
   width: auto;
   margin-top: 5%;
   margin-bottom: 0;
 }
 .myImg {
   display: block;
-  height: clamp(50%, 90vh, 90%);
+  height: 90%;
   width: auto;
   margin-top: ;
   border: 5px solid #333;
@@ -107,18 +152,18 @@
 }
 .welcome-section > h1 {
   margin-bottom: 10px;
-  font-size: clamp(30px, 10vw, 50px);
+  font-size: 50px;
   text-align: center;
   font-family: 'Koh Santepheap', cursive;
 }
 .welcome-section > p {
   margin: 10px 0;
-  font-size: clamp(10px, 5vw, 20px);
+  font-size: 20px;
   font-family: 'Josefin Sans', sans-serif;
-  width: 60%;
+  width: 80%;
 }
 .btn {
-  width: clamp(60%, vw, 30%);
+  width: 300px;
   height: 50px;
   border: 3px solid white;
   background: #333;
@@ -128,6 +173,7 @@
   margin-bottom: 30px;
   font-size: 20px;
   border-radius: 10px;
+  transition: transform 0.3s ease-out;
 }
 .btn a {
   text-decoration: none;
@@ -136,7 +182,19 @@
 .btn:hover {
   color: #fff;
   background: #c31432;
+  transform: translateY(5px);
 }
+@media screen and (max-width: 480px) {
+  .welcome-section h1 {
+    font-size: 30px;
+  }
+  .welcome-section p {
+    font-size: 18px;
+  }
+}
+
+
+
 /*----- projects section styling -----*/
 .projects-section {
   text-align: center;
@@ -226,7 +284,6 @@
   align-items: center;
   text-align: center;
   width: 100%;
-  height: 100vh;
   padding: 0 32px;
   background: url(https://images.pexels.com/photos/2911662/pexels-photo-2911662.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
   background-size: cover;
@@ -235,13 +292,13 @@
 
 .contact-section-header > h2 {
   margin-top: 50px;
-  font-size: clamp(30px, 10vw, 60px);
+  font-size: 60px;
   color: #c31432;
 }
 
 .contact-section-header > p {
   font-style: italic;
-  font-size: clamp(20px, 5vw, 30px);
+  font-size: 30px;
   color: black;
 }
 
@@ -249,22 +306,45 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  max-width: 980px;
-  margin-top: 20px;
-  margin-bottom: 50px;
-  flex-wrap: wrap;
+  margin: 20px auto;
+  flex-wrap: no-wrap;
 }
 
 .contact-details {
   margin: 10px 10px;
   font-size: 20px;
   text-shadow: 2px 2px 1px #1f1f1f;
+  width: auto;
   transition: transform 0.3s ease-out;
 }
 
 .contact-details:hover {
   transform: translateY(8px);
 }
+@media screen and (max-width: 480px) {
+  .contact-section-header > h2 {
+    font-size: 30px;
+  }
+  
+  .contact-section-header > p {
+    font-size: 20px;
+  }
+  
+  .contact-links {
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  
+  .contact-details {
+    margin: 10px 10px;
+    font-size: 20px;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    }
+}
+
+
+
+
 
 /*------- footer section styling --------*/
 
@@ -305,13 +385,13 @@ footer i {
   background-size: cover;
   background-position: center;
 }
-.img-container {
+..img-container {
   height: 40vh;
   width: auto;
   margin-top: 5%;
   margin-bottom: 0;
 }
-.myImg {
+..myImg {
   display: block;
   height: clamp(50%, 90vh, 90%);
   width: auto;
@@ -321,15 +401,15 @@ footer i {
 }
 .about-section > h1 {
   margin-bottom: 10px;
-  font-size: clamp(30px, 10vw, 50px);
+  font-size: 50px;
   text-align: center;
   font-family: 'Koh Santepheap', cursive;
 }
 .about-section > p {
   margin: 10px 0;
-  font-size: clamp(10px, 5vw, 20px);
+  font-size: 20px;
   font-family: 'Josefin Sans', sans-serif;
-  width: 60%;
+  width: 80%;
 }
 .btn {
   width: clamp(60%, vw, 30%);
