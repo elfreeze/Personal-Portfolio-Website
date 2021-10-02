@@ -38,8 +38,9 @@
 .nav-links a {
   margin: 0 10px;
   color: #c31432;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 20px;
+  font-weight: bold;
   
 }
 .nav-links a:hover {
@@ -149,12 +150,13 @@
   margin-bottom: 10px;
   font-size: 50px;
   text-align: center;
-  font-family: 'Koh Santepheap', cursive;
+  font-family: 'Birthstone', cursive;
 }
 .welcome-section > p {
   margin: 10px 0;
   font-size: 20px;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
   width: 80%;
 }
 .btn {
