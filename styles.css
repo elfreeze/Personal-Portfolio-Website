@@ -161,7 +161,8 @@
   font-weight: bold;
   width: 90%;
 }
-/*.btn {
+.btn {
+  padding: 10px 20px;
   width: auto;
   height: 50px;
   border: 3px solid white;
@@ -173,15 +174,17 @@
   font-size: 20px;
   border-radius: 10px;
   transition: transform 0.3s ease-out;
-}*/
+  text-shadow: 3px 3px 3px #1f1f1f;
+}
 .btn a {
   text-decoration: none;
   color: white;
 }
 .btn:hover {
-  color: #fff;
+  color: #000;
   background: #c31432;
   transform: translateY(5px);
+  text-shadow: 3px 3px 3px #1f1f1f;
 }
 
 @media screen and (max-width: 480px) {
@@ -259,11 +262,6 @@
   padding: 30px 5px;
 }
 
-.btn {
-  display: inline-block;
-  padding: 10px 20px;
-  border-radius: 2px;
-}
 
 .btn-show-all {
   font-size: 30px;
@@ -363,12 +361,6 @@
     margin: 0 auto;
     flex-wrap: wrap;
   }
-  
-  .contact-details {
-    margin: 10px 10px;
-    font-size: 20px;
-    text-shadow: 2px 2px 1px #1f1f1f;
-    }
 }
 
 
@@ -378,23 +370,31 @@
 /*------- footer section styling --------*/
 
 footer {
-  font-weight: 300;
+  font-weight: bold;
   display: flex;
-  justify-content: space-evenly;
-  padding: 32px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
   background: #333;
-  border-top: 4px solid #c31432;
+  border-top: 5px solid #c31432;
 }
 
 footer > p {
   margin: 32px;
-  color: #fff;
-  font-size: clamp(20px, 5vw, 30px);
+  color: #c31432;
+  font-size: 30px;
+  text-shadow: 3px 3px 3px #1f1f1f;
+}
+@media screen and (max-width: 480px) {
+  footer > p {
+    font-size: 15px;
+  }
 }
 
-footer i {
-  vertical-align: middle;
-}
+
+
+
 /*------ ending of global styling -----*/
 
 /*------ beginning of about page independent styling -----*/
@@ -439,26 +439,6 @@ footer i {
   font-size: 20px;
   font-family: 'Josefin Sans', sans-serif;
   width: 80%;
-}
-.btn {
-  width: clamp(60%, vw, 30%);
-  height: 50px;
-  border: 3px solid white;
-  background: #333;
-  color: white;
-  font-family: 'Josefin Sans', sans-serif;
-  margin-top: 20px;
-  margin-bottom: 30px;
-  font-size: 20px;
-  border-radius: 10px;
-}
-.btn a {
-  text-decoration: none;
-  color: white;
-}
-.btn:hover {
-  color: #fff;
-  background: #c31432;
 }
 
 /*------ contact-section styling ------*/
