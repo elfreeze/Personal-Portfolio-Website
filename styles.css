@@ -21,6 +21,7 @@
   padding: 0 10px;
   position: fixed;
   top: 0;
+  border-bottom:3px solid #c31432;
 }
 .logo a {
   font-family: 'Birthstone', cursive;
@@ -307,6 +308,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  height: 300px;
   width: 100%;
   padding: 0 32px;
   background: url(https://images.pexels.com/photos/2911662/pexels-photo-2911662.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
@@ -376,16 +378,46 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 30px;
+  height: 150px;
+  width: 100%;
   background: #333;
   border-top: 5px solid #c31432;
 }
 
 footer > p {
-  margin: 32px;
+  margin-top: 30px;
   color: #c31432;
   font-size: 30px;
   text-shadow: 3px 3px 3px #1f1f1f;
 }
+.footer-btn-container {
+  margin: 30px auto;
+}
+.footer-btn {
+  padding: 10px 20px;
+  width: auto;
+  height: 50px;
+  border: 3px solid white;
+  background: #333;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  transition: transform 0.3s ease-out;
+  text-shadow: 3px 3px 3px #1f1f1f;
+}
+.footer-btn a {
+  text-decoration: none;
+  color: white;
+}
+.footer-btn:hover {
+  color: #000;
+  background: #c31432;
+  transform: translateX(5px);
+  text-shadow: 3px 3px 3px #1f1f1f;
+}
+
+
 @media screen and (max-width: 480px) {
   footer > p {
     font-size: 15px;
@@ -412,33 +444,39 @@ footer > p {
   margin-top: 40px;
   background: #fff;
   background-size: cover;
-  background-position: center;
 }
-..img-container {
-  height: 40vh;
+.img-container {
+  height: 50vh;
   width: auto;
   margin-top: 5%;
   margin-bottom: 0;
 }
-..myImg {
+.myImg2 {
   display: block;
-  height: clamp(50%, 90vh, 90%);
+  height: 90%;
   width: auto;
   margin-top: ;
   border: 5px solid #333;
   border-radius: 10%;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.671);
 }
 .about-section > h1 {
   margin-bottom: 10px;
   font-size: 50px;
   text-align: center;
-  font-family: 'Koh Santepheap', cursive;
+  font-family: 'Birthstone', cursive;
+  text-shadow: 3px 3px 3px #000;
+  background: #333;
+  color: #fff;
+  width: 80%;
+  border-bottom: 3px solid #c31432;
 }
 .about-section > p {
-  margin: 10px 0;
+  margin: 10px;
   font-size: 20px;
-  font-family: 'Josefin Sans', sans-serif;
-  width: 80%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  width: 90%;
 }
 
 /*------ contact-section styling ------*/
@@ -451,10 +489,35 @@ footer > p {
   width: 100%;
   height: 50vh;
   padding: 0 32px;
-  background: url(https://images.pexels.com/photos/2911662/pexels-photo-2911662.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
-  background-size: cover;
-  background-position: center;
 }
+.contact-btn {
+  padding: 10px 20px;
+  width: auto;
+  height: 50px;
+  border: 3px solid white;
+  background: #333;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  border: 3px solid #c31432;
+  border-radius: 10px;
+  transition: transform 0.3s ease-out;
+  text-shadow: 3px 3px 3px #1f1f1f;
+}
+.contact-btn a {
+  text-decoration: none;
+  color: #c31432;
+}
+.contact-btn:hover {
+  color: #000;
+  background: orangered;
+  transform: translateY(5px);
+  text-shadow: 3px 3px 3px #1f1f1f;
+}
+
+
 
 .about-contact-links {
   display: flex;
