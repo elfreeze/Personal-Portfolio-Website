@@ -249,7 +249,7 @@
 }
 .project:hover {
   color: orange;
-  transform: translateY(10px);
+  transform: translateY(5px);
 }
 
 .project-image {
