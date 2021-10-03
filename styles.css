@@ -537,3 +537,24 @@ footer > p {
 .about-contact-details:hover {
   transform: translateY(8px);
 }
+
+
+
+/*-------- ending of about-page styling -----------*/
+
+
+
+
+
+
+/*-------- beginning contact page styling ----------*/
+.contact-page-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 60px;
+}
+.contact-page-section h2 {
+  font-size: 60px;
+}
