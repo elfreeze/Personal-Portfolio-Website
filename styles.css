@@ -238,6 +238,7 @@
   background: #333;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   border-radius: 2px;
+  border-bottom: 3px solid #c31432;
   height: 300px;
   color: #fff;
   transition: transform 0.3s ease-in-out;
@@ -264,6 +265,7 @@
   height: 80%;
   width: 100%;
   object-fit: cover;
+  border-bottom: 3px solid #c31432;
 }
 
 .project-title {
@@ -306,9 +308,12 @@
   .projects-grid {
     grid-gap: 20px;
   }  
+  
 }
 /*------ miscellanous ----*/
-
+.projects-page {
+  margin-top: 40px;
+}
 
 
 /*------ contact-section styling ------*/
