@@ -134,16 +134,13 @@
   background-repeat: no-repeat;
 }
 .img-container {
-  height: 50vh;
-  width: auto;
-  margin-top: 5%;
   margin-bottom: 0;
 }
 .myImg {
   display: block;
   height: 90%;
   width: auto;
-  margin-top: ;
+  margin: 0 auto;
   border: 5px solid #fff;
   border-radius: 10%;
   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.671);
@@ -189,13 +186,12 @@
 }
 
 @media screen and (max-width: 480px) {
-  .img-container {
-    height: 30vh;
-    width: auto;
-    margin-top: 5%;
-    margin-bottom: 0;
+  .myImg{
+    height: 60%;
+    margin: 0 auto;
   }
   .welcome-section h1 {
+    margin: 0 auto;
     font-size: 40px;
   }
   .welcome-section p {
