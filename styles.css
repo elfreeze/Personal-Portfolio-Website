@@ -209,7 +209,7 @@
 /*----- projects section styling -----*/
 .projects-section {
   text-align: center;
-  padding: 50px 20px;
+  padding: 30px 20px;
   background: url(https://images.pexels.com/photos/2695858/pexels-photo-2695858.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
   background-size: cover;
   color: #c31432;
@@ -220,12 +220,14 @@
   width: 80%;
   margin: 0 auto 40px auto;
   border-bottom: 5px solid orange;
-  font-size: 35px;
+  font-weight: bold;
+  font-size: 40px;
 }
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 40px;
+  grid-gap: 30px;
+  height: auto;
   width: 100%;
   margin: 0 auto;
   margin-bottom: 60px;
@@ -234,6 +236,7 @@
   background: #333;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   border-radius: 2px;
+  height: 400px;
   color: #fff;
   transition: transform 0.3s ease-in-out;
 }
@@ -248,9 +251,13 @@
 }
 .project:hover {
   color: orange;
-  transform: translateY(5px);
+  transform: translateX(3px);
 }
 
+.project a:hover {
+  color: orange;
+  transform: translateY(5px);
+}
 .project-image {
   height: 80%;
   width: 100%;
@@ -266,11 +273,12 @@
 .btn-show-all {
   font-size: 30px;
   background: #333;
-  transition: background 0.3s ease-out;
+  transition: transform 0.3s ease-out;
 }
 
 .btn-show-all:hover {
   background: #c31432;
+  transform: translateY(5px);
 }
 
 .btn-show-all:hover > i {
