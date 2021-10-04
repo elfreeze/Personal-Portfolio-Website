@@ -305,9 +305,7 @@
   }  
 }
 /*------ miscellanous ----*/
-.links {
-  color: orange;
-}
+
 
 
 /*------ contact-section styling ------*/
@@ -497,6 +495,22 @@ footer > p {
   text-align: left;
   width: 80%;
 }
+.about-section > h4 {
+  margin: 10px;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  width: 80%;
+}
+.links {
+  color: orange;
+}
+.home-btn {
+ display: block;
+ border: 3px solid #c31432; 
+}
+
 @media screen and (max-width: 480px) {
   .img-container2{
     height: 30vh;
