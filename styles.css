@@ -479,11 +479,22 @@ footer > p {
   width: 80%;
   border-bottom: 3px solid #c31432;
 }
+.about-section > h3 {
+  font-size: 30px;
+  font-family: 'Birthstone', cursive;
+  text-shadow: 3px 3px 3px #000;
+  margin: 10px auto;
+  width: 40%;
+  color: #fff;
+  background: #333;
+  border-bottom: 3px solid #c31432;
+}
 .about-section > p {
   margin: 10px;
   font-size: 20px;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
+  text-align: left;
   width: 80%;
 }
 @media screen and (max-width: 480px) {
