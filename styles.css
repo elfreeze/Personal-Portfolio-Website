@@ -216,11 +216,14 @@
 }
 
 .projects-section-heading {
+  background: #333;
   width: 80%;
   margin: 0 auto 40px auto;
-  border-bottom: 5px solid orange;
+  border-bottom: 3px solid #c31432;
+  font-family: 'Birthstone', cursive;
   font-weight: bold;
   font-size: 40px;
+  text-shadow: 3px 3px 3px #000;
 }
 .projects-grid {
   display: grid;
@@ -587,8 +590,96 @@ footer > p {
 
 /*-------- ending of about-page styling -----------*/
 
+/*----- beginning of projects page styling -----*/
+.projects-page-section {
+  margin-top: 40px;
+  text-align: center;
+  padding: 30px 20px;
+  background: url(https://images.pexels.com/photos/2695858/pexels-photo-2695858.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+  background-size: cover;
+  color: #c31432;
+  font-family: 'Josefin Sans', sans-serif;
+}
 
+.projects-page-heading {
+  background: #333;
+  width: 80%;
+  margin: 0 auto 40px auto;
+  border-bottom: 3px solid #c31432;
+  font-family: 'Birthstone', cursive;
+  font-weight: bold;
+  font-size: 40px;
+  text-shadow: 3px 3px 3px #000;
+}
+.projects-page-section p {
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  width: 80%;
+}
+.projects-page-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 30px;
+  height: auto;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+.page-project {
+  background: #333;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+  height: 300px;
+  color: #fff;
+  transition: transform 0.3s ease-in-out;
+}
 
+.code {
+  color: #333;
+  transition: color 0.3s ease-out;
+}
+
+.page-project:hover .code {
+  color: red;
+}
+.page-project:hover {
+  color: orange;
+  transform: translateX(3px);
+}
+
+.page-project a:hover {
+  color: orange;
+  transform: translateY(5px);
+}
+.project-page-image {
+  height: 80%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.project-page-title {
+  font-size: 20px;
+  padding: 20px 5px 10px 5px;
+}
+@media screen and (max-width: 480px) {
+  .projects-page-section {
+    padding: 40px 40px;
+    color: #c31432;
+  }
+  
+  .projects-page-heading {
+    width: 90%;
+    margin: 0 auto 30px auto;
+    font-size: 25px;
+  }
+  .projects-page-grid {
+    grid-gap: 20px;
+  }  
+}
+/*----- ending of projects page styling -----*/
 
 
 
@@ -603,3 +694,13 @@ footer > p {
 .contact-page-section h2 {
   font-size: 60px;
 }
+
+
+
+
+
+
+/*----- ending of contact page styling -----*/
+
+
+
