@@ -109,14 +109,12 @@
 
 /*----- welcome section styling -----*/
 .welcome-section {
-  text-align: center;
-  color: white;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   height: auto;
   width: 100%;
+  text-align: center;
+  color: white;
   margin-top: 40px;
   background: #c31432; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -131,13 +129,14 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
 }
 .img-container {
+  height: 50vh;
+  width: auto;
+  margin-top: 5%;
   margin-bottom: 0;
 }
 .myImg {
-  display: block;
   height: 90%;
   width: auto;
   margin: 0 auto;
@@ -186,13 +185,16 @@
 }
 
 @media screen and (max-width: 480px) {
+  .img-container{
+    height: 30vh;
+  }
   .myImg{
-    height: 60%;
+    height: 90%;
     margin: 0 auto;
   }
   .welcome-section h1 {
     margin: 0 auto;
-    font-size: 40px;
+    font-size: 50px;
   }
   .welcome-section p {
     font-size: 15px;
@@ -440,7 +442,7 @@ footer > p {
   background: #fff;
   background-size: cover;
 }
-.img-container {
+.img-container2 {
   height: 50vh;
   width: auto;
   margin-top: 5%;
@@ -473,6 +475,22 @@ footer > p {
   font-weight: bold;
   width: 90%;
 }
+@media screen and (max-width: 480px) {
+  .img-container2{
+    height: 30vh;
+  }
+  .myImg2{
+    display: block;
+    height: 90%;
+    margin: 0 auto;
+  }
+  .about-section h1 {
+    margin: 0 auto;
+    font-size: 50px;
+  }
+}
+
+
 
 /*------ contact-section styling ------*/
 .about-contact-section {
