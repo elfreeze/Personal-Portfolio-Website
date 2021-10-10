@@ -391,31 +391,31 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 30px;
+  text-align: center;
   height: 150px;
   width: 100%;
+  font-family: 'Josefin Sans', sans-serif;
   background: #333;
   border-top: 5px solid #c31432;
 }
 
 footer > p {
-  margin-top: 30px;
+  margin-top: 20px;
   color: #c31432;
-  font-size: 30px;
+  font-size: 20px;
   text-shadow: 3px 3px 3px #1f1f1f;
 }
 .footer-btn-container {
-  margin: 30px auto;
+  margin: 20px auto;
 }
 .footer-btn {
-  padding: 10px 20px;
+  padding: 5px 10px;
   width: auto;
-  height: 50px;
+  height: 30px;
   border: 3px solid white;
   background: #333;
   color: white;
-  margin-top: 20px;
-  margin-bottom: 30px;
+  margin: 5px;
   border-radius: 10px;
   transition: transform 0.3s ease-out;
   text-shadow: 3px 3px 3px #1f1f1f;
@@ -426,7 +426,7 @@ footer > p {
 }
 .footer-btn:hover {
   color: #000;
-  background: #c31432;
+  background: orange;
   transform: translateX(5px);
   text-shadow: 3px 3px 3px #1f1f1f;
 }
@@ -434,7 +434,7 @@ footer > p {
 
 @media screen and (max-width: 480px) {
   footer > p {
-    font-size: 15px;
+    font-size: 13px;
   }
 }
 
