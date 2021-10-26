@@ -349,7 +349,7 @@ footer {
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 150px;
+  height: 40vh;
   width: 100%;
   font-family: 'Josefin Sans', sans-serif;
   background: #333;
@@ -359,7 +359,7 @@ footer {
 footer > p {
   margin-top: 20px;
   color: #c31432;
-  font-size: 20px;
+  font-size: 15px;
   text-shadow: 3px 3px 3px #1f1f1f;
 }
 .footer-btn-container {
@@ -391,7 +391,7 @@ footer > p {
 
 @media screen and (max-width: 480px) {
   footer > p {
-    font-size: 13px;
+    font-size: 10px;
   }
 }
 
