@@ -48,64 +48,21 @@
 }
 .nav-links a:hover {
   color: orange;
-}
-.aboutTab {
-  transition: transform 0.3s ease-out;
-}
-.aboutTab:hover {
-  transform: translateY(1px);
-  font-size: 22px;
-}
-
-.blogTab {
-  transition: transform 0.3s ease-out;
-}
-.blogTab:hover {
-  transform: translateY(1px);
-  font-size: 22px;
-}
-.projectTab {
-  transition: transform 0.3s ease-out;
-}
-.projectTab:hover {
-  transform: translateY(1px);
-  font-size: 22px;
-}
-.contactTab {
-  transition: transform 0.3s ease-out;
-}
-.contactTab:hover {
-  transform: translateY(1px);
   font-size: 22px;
 }
 
 @media screen and (max-width: 480px) {
   .logo a {
-    font-size: 28px;
-  }
-  .logo a:hover {
-    transform: translateY(2px);
     font-size: 30px;
   }
+  .logo a:hover {
+    font-size: 32px;
+  }
   .nav-links a {
-    font-size: 10px;
-    margin: 5px;
+    font-size: 13px;
   }
-  .aboutTab:hover {
-    transform: translateY(1px);
-    font-size: 12px;
-  }
-  .blogTab:hover {
-    transform: translateY(1px);
-    font-size: 12px;
-  }
-  .projectTab:hover {
-    transform: translateY(1px);
-    font-size: 12px;
-  }
-  .contactTab:hover {
-    transform: translateY(1px);
-    font-size: 12px;
+  .nav-links a:hover {
+    font-size: 15px;
   }
 }
 
