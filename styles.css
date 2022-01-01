@@ -65,6 +65,7 @@ html {
   background: #fff;
   position: fixed;
   top: 0;
+  
 }
 .logo {
   width: 50%;
@@ -137,4 +138,55 @@ html {
   .nav-links a:hover {
     font-size: 14px;
   }
+}
+
+
+/*----- welcome section styling -----*/
+.welcome-section {
+  margin-top: 60px;
+  height: auto;
+  display: flex;
+  width: 100%;
+  text-align: center;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #034694;
+  height: 80vh;
+  width: 60vw;
+}
+
+.text-container > h1 {
+  margin-bottom: 20px;
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.text-container > p {
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  width: 90%;
+  color: #fff;
+}
+
+.about-link {
+  margin: 10px auto;
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.img-container {
+  height: 80vh;
+  width: 40vw;
+}
+.myImg {
+  height: 100%;
+  width: 100%;
 }
