@@ -295,7 +295,7 @@ html {
 
 @media screen and (max-width: 480px) {
   .projects-section-heading {
-    width: auto;
+
     font-size: 20px;
   }
 }
