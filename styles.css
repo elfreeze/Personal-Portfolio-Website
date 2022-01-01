@@ -58,23 +58,25 @@ html {
 /*----- navigation menu styling -----*/
 #navbar {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 70px;
+  justify-content: space-between;
+  height: 50px;
   width: 100%;
   background: #fff;
+  position: fixed;
+  top: 0;
 }
 .logo {
   width: 100%;
   text-align: center;
   margin: 10px;
-  height: 50%;
+
 }
 .logo a {
   font-family: 'Montserrat', sans-serif;
   font-weight: bolder;
-  font-size: 20px;
+  font-size: 25px;
   color: #000;
   transition: transform 0.3s ease-out;
   text-decoration: none;
@@ -82,7 +84,7 @@ html {
 .logo a:hover {
   color: #002d62;
   transform: translateY(1px);
-  font-size: 3.5rem;
+  font-size: 26px;
 }
 .nav-links {
   height: auto;
@@ -102,23 +104,21 @@ html {
   font-size: 1.8rem;
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (max-width: 480px) {
   #navbar {
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
     padding: 0 50px;
-    height: 50px;
+    height: 70px;
   }
   .logo {
-    height: auto;
     width: auto;
-    text-align: center;
+    height: 50%;
   }
   .logo a {
-    font-size: 25px;
+    font-size: 20px;
   }
   .logo a:hover {
-    font-size: 27px;
+    font-size: 21px;
   }
   .nav-links {
     border-top: none;
