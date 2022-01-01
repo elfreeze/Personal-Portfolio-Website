@@ -160,7 +160,7 @@ html {
 }
 
 .text-container > h1 {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   font-size: 40px;
   color: #fff;
   text-align: center;
@@ -190,3 +190,55 @@ html {
   height: 100%;
   width: 100%;
 }
+
+
+@media screen and (max-width: 480px) {
+  .welcome-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin-top: 70px;
+  }
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #034694;
+    height: 60vh;
+    width: 100%;
+  }
+  
+  .text-container > h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .text-container > p {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    width: 90%;
+    color: #fff;
+  }
+  
+  .about-link {
+    margin: 10px auto;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .img-container {
+    height: 50vh;
+    width: 100%;
+  }
+  .myImg {
+    height: 100%;
+    width: 100%;
+  }
+}  
