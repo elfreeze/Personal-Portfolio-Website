@@ -234,12 +234,12 @@ html {
 
 .projects-section-heading {
   background: #fff;
-  width: 60px;
+  width: 50%;
   border-bottom: 3px solid #034694;
   margin: 0 auto 40px auto;
   font-family: 'Montserrat', sans-serif;
   font-weight: bolder;
-  font-size: 30px;
+  font-size: 20px;
 }
 .projects-grid {
   display: grid;
