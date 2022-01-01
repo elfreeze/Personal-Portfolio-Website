@@ -234,12 +234,12 @@ html {
 
 .projects-section-heading {
   background: #fff;
-  width: auto;
+  width: 60px;
   border-bottom: 3px solid #034694;
   margin: 0 auto 40px auto;
   font-family: 'Montserrat', sans-serif;
   font-weight: bolder;
-  font-size: 2rem;
+  font-size: 30px;
 }
 .projects-grid {
   display: grid;
@@ -287,15 +287,71 @@ html {
 }
 
 .project-title {
-  font-size: 2rem;
+  font-size: 20px;
   padding: 20px 5px 10px 5px;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (max-width: 480px) {
   .projects-section-heading {
-    width: 60%;
-    font-size: 3rem;
+    width: auto;
+    font-size: 20px;
   }
 }
+
+
+
+/*------- footer section styling --------*/
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  height: 30vh;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: #034694;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px auto;
+  padding: 0 20px;
+  background: ;
+}
+
+.quick-links, .quick-links li a {
+  text-decoration: none;
+  text-align: left;
+  color: #fff;
+  font-size: 16px;
+  margin: 10px;
+  width: 30vw;
+}
+
+.footer-social-links, .footer-social-links li a {
+  text-decoration: none;
+  text-align: left;
+  color: #fff;
+  font-size: 16px;
+  margin: 10px;
+  width: 30vw;
+}
+
+.copyright-info {
+  color: #fff;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 4px) {
+  .copyright-info {
+    
+  }
+}
+
+/*------ ending of global styling -----*/
