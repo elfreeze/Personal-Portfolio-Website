@@ -372,7 +372,7 @@ footer {
 .img-container2 {
   display: flex;
   justify-content: center;
-  height: 30vh;
+  height: 40vh;
   width: 100%;
   margin: 0 auto;
   margin-bottom: 5px;
@@ -390,27 +390,20 @@ footer {
   margin-top: 15px;
 }
 .font-container > h1 {
-  font-size: 3rem;
+  font-size: 30px;
   font-family: 'Montserrat', sans-serif;
   color: #000;
-  width: 40%;
+  width: 30%;
   border-bottom: 3px solid #002d62;
 }
-.font-container > h3 {
-  font-size: 3rem;
-  font-family: 'Montserrat', sans-serif;
-  margin: 10px auto;
-  width: 40%;
-  color: #000;
-  border-bottom: 3px solid #002d62;
-}
+
 .font-container > p {
   margin: 10px;
-  font-size: 15px;
+  font-size: 20px;
   font-family: 'Open Sans', sans-serif;
   font-weight: ;
   text-align: left;
-  width: 90%;
+  width: 75%;
   color: #000;
 }
 
@@ -418,21 +411,20 @@ footer {
   color: #002d62;
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (max-width: 480px) {
   .img-container2 {
     height: 40vh;
    }
    .font-container {
-     width: 70vw;
+     width: auto;
    }
-  .font-container h1, .font-container h3 {
-    text-align: left;
-    align-self: flex-start;
-    margin-left: 10%;
-    width: 20%;
+  .font-container h1 {
+    font-size: 25px;
+    width: 50%;
   }
   .font-container p {
-    font-size: 20px;
+    font-size: 18px;
+    width: 85%;
   }
 }
 
