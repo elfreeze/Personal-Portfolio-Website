@@ -117,7 +117,6 @@ html {
   width: 8%;
   height: 30px;
   border-radius: 5px;
-
   margin: ;
 }
 .contactTab a {
@@ -163,6 +162,9 @@ html {
   }
   .nav-links a:hover {
     font-size: 14px;
+  }
+  .contactTab {
+    display: none;
   }
 }
 
