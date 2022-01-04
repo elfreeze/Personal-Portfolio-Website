@@ -79,13 +79,12 @@ html {
   font-family: 'Montserrat', sans-serif;
   font-weight: bolder;
   font-size: 25px;
-  color: #000;
+  color: #034694;
   transition: transform 0.3s ease-out;
   text-decoration: none;
 }
 .logo a:hover {
-  color: #002d62;
-  transform: translateY(1px);
+  color: #000;
   font-size: 26px;
 }
 .nav-links {
