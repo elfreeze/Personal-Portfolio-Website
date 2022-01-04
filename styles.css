@@ -99,7 +99,7 @@ html {
 }
 .logo a:hover {
   color: #000;
-  font-size: 26px;
+  transform: translateX(2px);
 }
 .nav-links {
   width: 30%;
@@ -116,10 +116,11 @@ html {
   font-size: 16px;
   font-weight: bold;
   text-decoration: none;
+  transition: transform 0.3s ease-out;
 }
 .nav-links a:hover {
   color: #034694;
-  font-size: 17px;
+  transform: translateX(2px);
 }
 .contactTab {
   background: #034694;
@@ -157,14 +158,14 @@ html {
 .socialBtn {
   margin: 20px;
   width: auto;
-  background: transparent;
-  color: rgb(4, 0, 255);
   text-align: center;
   text-decoration: none;
   font-size: 25px;
-  font-weight: bold;
-  font-family: 'Open Sans', sans-serif;
   transition: transform 0.3s ease-out;
+}
+.socialBtn:hover {
+  color: #000;
+  transform: translateX(2px);
 }
 .btn2 {
   color: #002d62;
@@ -192,7 +193,7 @@ html {
     font-size: 20px;
   }
   .logo a:hover {
-    font-size: 21px;
+    
   }
   .nav-links {
     border-top: 1px solid #000;
@@ -204,7 +205,7 @@ html {
     margin-right: 20px;
   }
   .nav-links a:hover {
-    font-size: 14px;
+    
   }
   .contactTab {
     display: none;
