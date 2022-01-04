@@ -511,7 +511,7 @@ footer {
 /*-------- ending of about-page styling -----------*/
 
 /*----- beginning of projects page styling -----*/
-.projects-page-section {
+.projects-page {
   font-family: 'Open Sans', sans-serif;
   display: flex;
   flex-direction: column;
