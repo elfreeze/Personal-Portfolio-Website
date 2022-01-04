@@ -46,11 +46,13 @@ html {
 .btn-show-all {
   border: 2px solid #002d62;
   border-radius: 5px;
-  height: 30px;
-  width: auto;
+  height: 40px;
+  width: 100px;
   color: #000;
   font-size: 16px;
-  padding: 8px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .contact-links {
   display: flex;
@@ -71,7 +73,7 @@ html {
 #navbar {
   display: flex;
   align-items: center;
-  justify-content: ;
+  justify-content: space-between;
   height: 50px;
   width: 100%;
   background: #fff;
@@ -80,7 +82,7 @@ html {
   
 }
 .logo {
-  width: 25%;
+  width: 30%;
   text-align: center;
   margin-left: 40px;
   height: 100%;
@@ -100,7 +102,7 @@ html {
   font-size: 26px;
 }
 .nav-links {
-  width: 26%;
+  width: 30%;
   height: 100%;
   display: flex;
   align-items: center;
@@ -149,11 +151,11 @@ html {
   align-items: center;
   width: 30%;
   height: 100%;
-  margin-left: 100px;
+  margin-left: 120px;
 
 }
 .socialBtn {
-  margin: 15px;
+  margin: 20px;
   width: auto;
   background: transparent;
   color: rgb(4, 0, 255);
