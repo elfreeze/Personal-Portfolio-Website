@@ -26,18 +26,7 @@ html {
   font-family: 'Open Sans', sans-serif;
   transition: transform 0.3s ease-out;
 }
-.btn2 {
-  margin: 10px ;
-  width: auto;
-  background: transparent;
-  color: rgb(4, 0, 255);
-  text-align: center;
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: bold;
-  font-family: 'Open Sans', sans-serif;
-  transition: transform 0.3s ease-out;
-}
+
 .btn:hover {
   color: #000;
   background: transparent;
@@ -175,6 +164,9 @@ html {
 }
 .btn4 {
   color: #5387c2;
+}
+.btn5 {
+  color: #2ab368;
 }
 
 @media screen and (max-width: 480px) {
