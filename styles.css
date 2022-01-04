@@ -79,7 +79,7 @@ html {
   background: #fff;
   position: fixed;
   top: 0;
-  
+  z-index: 1;
 }
 .logo {
   width: 30%;
