@@ -26,6 +26,18 @@ html {
   font-family: 'Open Sans', sans-serif;
   transition: transform 0.3s ease-out;
 }
+.btn2 {
+  margin: 10px ;
+  width: auto;
+  background: transparent;
+  color: rgb(4, 0, 255);
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  transition: transform 0.3s ease-out;
+}
 .btn:hover {
   color: #000;
   background: transparent;
@@ -131,6 +143,36 @@ html {
   background: #fff;
   color: #034694;
 }
+.socialBtns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 100%;
+  margin-left: 100px;
+
+}
+.socialBtn {
+  margin: 15px;
+  width: auto;
+  background: transparent;
+  color: rgb(4, 0, 255);
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  transition: transform 0.3s ease-out;
+}
+.btn2 {
+  color: #002d62;
+}
+.btn3 {
+  color: #000;
+}
+.btn4 {
+  color: #5387c2;
+}
 
 @media screen and (max-width: 480px) {
   #navbar {
@@ -163,6 +205,9 @@ html {
     font-size: 14px;
   }
   .contactTab {
+    display: none;
+  }
+  .socialBtns {
     display: none;
   }
 }
