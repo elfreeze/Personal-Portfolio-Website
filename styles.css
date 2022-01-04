@@ -311,10 +311,10 @@ html {
 }
 
 .projects-section-heading {
-  font-size: 30px;
+  font-size: 25px;
   font-family: 'Montserrat', sans-serif;
   color: #000;
-  width: 30%;
+  width: 25%;
   border-bottom: 3px solid #002d62;
   text-align: left;
   margin-bottom: 30px;
@@ -499,11 +499,11 @@ footer {
      width: auto;
    }
   .font-container h1 {
-    font-size: 25px;
+    font-size: 20px;
     width: 50%;
   }
   .font-container p {
-    font-size: 18px;
+    font-size: 1px;
     width: 85%;
   }
 }
