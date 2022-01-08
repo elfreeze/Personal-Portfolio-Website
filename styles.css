@@ -49,7 +49,7 @@ html {
   width: 100%;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   .btn {
     margin: 10px;
     font-family: 'Open Sans', sans-serif;
@@ -169,7 +169,7 @@ html {
   color: #2ab368;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #navbar {
     flex-direction: column;
     justify-content: center;
@@ -259,7 +259,7 @@ html {
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   .welcome-section {
     flex-direction: column;
     margin-top: 70px;
@@ -313,7 +313,7 @@ html {
 }
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 30px;
   height: auto;
   width: 100%;
@@ -363,7 +363,7 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   .projects-section-heading {
     font-size: 20px;
     width: 50%;
@@ -418,7 +418,7 @@ footer {
   font-size: 13px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width:640px) {
   .copyright-info {
     
   }
@@ -483,7 +483,7 @@ footer {
   color: #002d62;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 4px) {
   .img-container2 {
     height: 40vh;
    }
