@@ -483,7 +483,7 @@ footer {
   color: #002d62;
 }
 
-@media screen and (max-width: 4px) {
+@media screen and (max-width: 640px) {
   .img-container2 {
     height: 40vh;
    }
