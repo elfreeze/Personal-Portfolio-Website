@@ -583,30 +583,29 @@ footer {
   justify-content: ;
   align-items: ;
   margin: auto 30px;
-  margin-top: 15px;
 }
 .individual-font-container > h1 {
   font-size: 30px;
   font-family: 'Montserrat', sans-serif;
   color: #000;
-  width: 50%;
-  border-bottom: 3px solid #002d62;
+  width: 100%;
+  margin-bottom: 20px;
 }
 .individual-font-container > h2 {
   font-size: 20px;
   font-family: 'Montserrat', sans-serif;
   color: #000;
-  width: 50%;
+  width: 250px;
   border-bottom: 3px solid #002d62;
 }
 
 .individual-font-container > p {
-  margin: 10px;
+  margin: 10px 0;
   font-size: 20px;
   font-family: 'Open Sans', sans-serif;
   font-weight: ;
   text-align: left;
-  width: 75%;
+  width: 100%;
   color: #000;
 }
 
@@ -630,12 +629,10 @@ footer {
   }
   .individual-font-container > h2 {
     font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
-    margin-top: 20px;
   }
   .individual-font-container p {
     font-size: 16px;
-    width: 85%;
+    width: 100%;
   }
 }
 
