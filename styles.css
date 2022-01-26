@@ -100,7 +100,6 @@ html {
 .nav-links a {
   margin: 10px;
   margin-right: 40px;
-  color: #000;
   font-family: 'Montserrat', sans-serif;
   font-size: 13px;
   font-weight: bold;
@@ -111,13 +110,16 @@ html {
   color: #034694;
   transform: translateX(2px);
 }
+.aboutTab, .projectTab, .blogTab {
+  color: #000;
+}
 .contactTab {
   background: #034694;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  width: 0px;
+  width: 100px;
   height: 25px;
   border-radius: 5px;
   color: #fff;
