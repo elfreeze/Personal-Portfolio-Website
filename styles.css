@@ -117,8 +117,8 @@ html {
   align-items: center;
   justify-content: center;
   text-align: center;
-  width: 20%;
-  height: 50%;
+  width: 0px;
+  height: 25px;
   border-radius: 5px;
   color: #fff;
   font-family: 'Montserrat', sans-serif;
