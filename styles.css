@@ -563,20 +563,6 @@ footer {
   margin-top: 100px;
   background: #fff;
 }
-.img-container2 {
-  display: flex;
-  justify-content: center;
-  height: 40vh;
-  width: 100%;
-  margin: 0 auto;
-  margin-top: 80px;
-  margin-bottom: 5px;
-}
-.myImg2 {
-  display: block;
-  height: auto;
-  width: 33.3%;
-}
 .individual-font-container {
   display: flex;
   flex-direction: column;
@@ -616,6 +602,26 @@ footer {
   color: #002d62;
   font-size: 20px;
   font-weight: bold;
+}
+#image-heading {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+  width: 250px;
+  border-bottom: 3px solid #002d62;
+  margin-bottom: 10px;
+}
+.individual-profile-img-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 40vh;
+  width: 100%;
+  margin: 20px;
+}
+.individual-profile-img-container > img {
+  height: auto;
+  width: 90%;
 }
 
 @media screen and (max-width: 640px) {
