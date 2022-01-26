@@ -71,7 +71,8 @@ html {
   z-index: 1;
 }
 .logo {
-  width: 30%;
+  background: yellow;
+  width: 60%;
   text-align: center;
   margin-left: 40px;
   height: 100%;
@@ -91,7 +92,8 @@ html {
   transform: translateX(2px);
 }
 .nav-links {
-  width: 30%;
+  background: red;
+  width: 40%;
   height: 100%;
   display: flex;
   align-items: center;
@@ -102,7 +104,7 @@ html {
   margin-right: 40px;
   color: #000;
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
+  font-size: 13px;
   font-weight: bold;
   text-decoration: none;
   transition: transform 0.3s ease-out;
@@ -117,10 +119,10 @@ html {
   align-items: center;
   justify-content: center;
   text-align: center;
-  width: 8%;
+  width: 15%;
   height: 30px;
   border-radius: 5px;
-  margin: ;
+  margin: a;
 }
 .contactTab a {
   color: #fff;
