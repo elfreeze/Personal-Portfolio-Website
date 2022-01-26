@@ -611,12 +611,12 @@ footer {
 .individual-profile-img-container {
   display: flex;
   flex-direction: column;
-  height: 40vh;
+  height: auto;
   width: auto;
   margin: 10px 30px;
 }
-.individual-profile-img-container > img {
-  height: auto;
+.individual-profile-img-container > a {
+  height: 3;
   width: 100%;
 }
 
