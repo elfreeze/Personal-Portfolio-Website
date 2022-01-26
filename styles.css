@@ -120,11 +120,9 @@ html {
   width: 20%;
   height: 50%;
   border-radius: 5px;
-  margin: ;
   color: #fff;
   font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  text-decoration: none;
+  
 }
 .contactTab a:hover {
   background: #fff;
