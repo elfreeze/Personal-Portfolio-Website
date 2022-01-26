@@ -555,9 +555,6 @@ footer {
   font-family: 'Open Sans', sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
   width: 100%;
   height: auto;
   margin-top: 100px;
@@ -613,15 +610,14 @@ footer {
 }
 .individual-profile-img-container {
   display: flex;
-  justify-content: center;
   flex-direction: column;
   height: 40vh;
-  width: 100%;
-  margin: 20px;
+  width: auto;
+  margin: 10px 30px;
 }
 .individual-profile-img-container > img {
   height: auto;
-  width: a;
+  width: 100%;
 }
 
 @media screen and (max-width: 640px) {
