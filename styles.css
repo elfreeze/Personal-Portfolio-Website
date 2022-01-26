@@ -621,7 +621,7 @@ footer {
 }
 .individual-profile-img-container > img {
   height: auto;
-  width: 90%;
+  width: a;
 }
 
 @media screen and (max-width: 640px) {
