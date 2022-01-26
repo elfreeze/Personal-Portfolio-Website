@@ -616,8 +616,13 @@ footer {
   margin: 10px 30px;
 }
 .individual-profile-img-container > a {
-  height: 3;
+  height: auto;
   width: 100%;
+}
+.individual-profile-img-container > a > img {
+  display: ;
+  height: 350px;
+  width: 80%;
 }
 
 @media screen and (max-width: 640px) {
