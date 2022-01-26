@@ -609,18 +609,20 @@ footer {
   margin-bottom: 10px;
 }
 .individual-profile-img-container {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-gap: 30px;
   height: auto;
-  width: auto;
-  margin: 10px 30px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 40px;
 }
 .individual-profile-img-container > a {
   height: auto;
   width: 100%;
 }
 .individual-profile-img-container > a > img {
-  display: ;
+  display: block;
   height: 350px;
   width: 80%;
 }
