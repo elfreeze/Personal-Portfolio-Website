@@ -84,7 +84,7 @@ p {
   align-items: center;
 }
 .logo a {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Arvo', serif;
   font-weight: bolder;
   font-size: 25px;
   color: #034694;
@@ -105,9 +105,9 @@ p {
 .nav-links a {
   margin: 10px;
   margin-right: 40px;
-  font-family: 'Arvo', serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 13px;
-  font-weight: bold;
+  font-weight: 00;
   text-decoration: none;
   transition: transform 0.3s ease-out;
 }
@@ -126,7 +126,8 @@ p {
   text-align: center;
   width: 100px;
   height: 25px;
-  border-radius: 
+  border-radius: 5px;
+  color: #fff;
 }
 .contactTab a:hover {
   background: #fff;
