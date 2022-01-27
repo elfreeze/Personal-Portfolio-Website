@@ -576,7 +576,7 @@ footer {
 }
 .individual-project-img-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 30px;
   height: auto;
   width: 100%;
@@ -586,6 +586,7 @@ footer {
 .image-grid {
   height: auto;
   width: 100%;
+  object-fit: cover;
 }
 .individual-profile-img-container > a > img {
   display: block;
