@@ -327,8 +327,7 @@ p {
   border-bottom: 3px solid #002d62;
   height: 350px;
   color: #fff;
-  font-family: 'Poppins', sans-serif;
-font-family: 'Lora', serif;
+  font-family: 'Lora', serif;
   transition: transform 0.3s ease-in-out;
   text-decoration: none;
 }
@@ -361,7 +360,7 @@ font-family: 'Lora', serif;
   font-size: 17px;
   padding: 20px 5px 10px 5px;
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lora', serif;
 }
 
 @media screen and (max-width: 640px) {
@@ -384,37 +383,11 @@ footer {
   padding: 10px;
   height: 10vh;
   width: 100%;
-  font-family: 'Montserrat', sans-serif;
   background: #034694;
 }
 
-.footer-links {
-  display: flex;
-  justify-content: space-between;
-  margin: 10px auto;
-  padding: 0 20px;
-  background: ;
-}
-
-.quick-links, .quick-links li a {
-  text-decoration: none;
-  text-align: left;
-  color: #fff;
-  font-size: 16px;
-  margin: 10px;
-  width: 30vw;
-}
-
-.footer-social-links, .footer-social-links li a {
-  text-decoration: none;
-  text-align: left;
-  color: #fff;
-  font-size: 16px;
-  margin: 10px;
-  width: 30vw;
-}
-
 .copyright-info {
+  font-family: 'Lora', serif;
   color: #fff;
   font-size: 13px;
 }
@@ -430,7 +403,6 @@ footer {
 /*------ about-section styling ------*/
 .about-section {
   margin-top: 100px;
-  font-family: 'Open Sans', sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
