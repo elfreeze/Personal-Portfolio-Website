@@ -587,6 +587,7 @@ footer {
   height: 250px;
   width: 100%;
   padding: 10px 10px;
+  border: 1px soli;
 }
 
 @media screen and (max-width: 640px) {
