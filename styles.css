@@ -108,7 +108,7 @@ p {
   margin-right: 40px;
   font-family: 'Merriweather', serif;
   font-size: 13px;
-  font-weight: ;
+  font-weight: bold;
   text-decoration: none;
   transition: transform 0.3s ease-out;
 }
@@ -130,9 +130,9 @@ p {
   border-radius: 5px;
   color: #fff;
 }
-.contactTab a:hover {
+.contactTab :hover {
   background: #fff;
-  color: #034694;
+  color: #000;
 }
 .socialBtns {
   display: flex;
