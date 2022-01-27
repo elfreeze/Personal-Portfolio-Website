@@ -574,7 +574,7 @@ footer {
   border-bottom: 3px solid #002d62;
   margin-bottom: 10px;
 }
-.individual-profile-img-container {
+.individual-project-img-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   grid-gap: 30px;
@@ -583,7 +583,7 @@ footer {
   margin: 0 auto;
   margin-bottom: 40px;
 }
-.individual-profile-img-container > a {
+.image-grid {
   height: auto;
   width: 100%;
 }
