@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Merriweather:ital,wght@0,700;0,900;1,700;1,900&display=swap');
 
-/*-- font-family: 'Arvo', serif;
-font-family: 'Roboto', sans-serif;
+/*-- font-family: 'Lora', serif;
+font-family: 'Merriweather', serif;
 
 /*----- global attributes -----*/
 * {
@@ -15,10 +15,11 @@ html {
   font-size: ;
 }
 h1, h2 {
-  font-family: 'Arvo', serif;
+  font-family: 'Lora', serif;
+  f
 }
 p {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Merriweather', serif;
 }
 .btn {
   margin: 10px 20px;
@@ -29,7 +30,7 @@ p {
   text-decoration: none;
   font-size: 30px;
   font-weight: bold;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Merriweather', serif;
   transition: transform 0.3s ease-out;
 }
 
@@ -84,8 +85,8 @@ p {
   align-items: center;
 }
 .logo a {
-  font-family: 'Arvo', serif;
-  font-weight: bolder;
+  font-family: 'Lora', serif;
+  font-weight: 900;
   font-size: 25px;
   color: #034694;
   transition: transform 0.3s ease-out;
@@ -105,9 +106,9 @@ p {
 .nav-links a {
   margin: 10px;
   margin-right: 40px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lora', serif;
   font-size: 13px;
-  font-weight: 00;
+  font-weight: 700;
   text-decoration: none;
   transition: transform 0.3s ease-out;
 }
@@ -231,7 +232,7 @@ p {
   font-size: 40px;
   color: #fff;
   text-align: center;
-  font-family: }
+}
 
 .text-container > p {
   font-size: 20px;
