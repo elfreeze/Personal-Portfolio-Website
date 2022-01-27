@@ -15,11 +15,11 @@ html {
   font-size: ;
 }
 h1, h2 {
-  font-family: 'Lora', serif;
-  f
+  font-family: 'Merriweather', serif;
+  font-weight: 900;
 }
 p {
-  font-family: 'Merriweather', serif;
+  font-family: 'Lora', serif;
 }
 .btn {
   margin: 10px 20px;
@@ -30,7 +30,7 @@ p {
   text-decoration: none;
   font-size: 30px;
   font-weight: bold;
-  font-family: 'Merriweather', serif;
+  font-family: 'Lora', serif;
   transition: transform 0.3s ease-out;
 }
 
@@ -85,7 +85,7 @@ p {
   align-items: center;
 }
 .logo a {
-  font-family: 'Lora', serif;
+  font-family: 'Merriweather', serif;
   font-weight: 900;
   font-size: 25px;
   color: #034694;
@@ -106,9 +106,9 @@ p {
 .nav-links a {
   margin: 10px;
   margin-right: 40px;
-  font-family: 'Lora', serif;
+  font-family: 'Merriweather', serif;
   font-size: 13px;
-  font-weight: 700;
+  font-weight: ;
   text-decoration: none;
   transition: transform 0.3s ease-out;
 }
@@ -236,7 +236,6 @@ p {
 
 .text-container > p {
   font-size: 20px;
-  font-family: 'Open Sans', sans-serif;
   width: 90%;
   color: #fff;
 }
