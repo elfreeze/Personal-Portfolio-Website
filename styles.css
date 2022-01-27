@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Merriweather:ital,wght@0,700;0,900;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Poppins:ital,wght@0,700;1,700&display=swap');
 
-/*-- font-family: 'Lora', serif;
-font-family: 'Merriweather', serif;
+/*-- font-family: 'Poppins', sans-serif;
+font-family: 'Lora', serif;
+
 
 /*----- global attributes -----*/
 * {
@@ -15,8 +16,8 @@ html {
   font-size: ;
 }
 h1, h2 {
-  font-family: 'Merriweather', serif;
-  font-weight: 900;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 00;
 }
 p {
   font-family: 'Lora', serif;
@@ -85,8 +86,8 @@ p {
   align-items: center;
 }
 .logo a {
-  font-family: 'Merriweather', serif;
-  font-weight: 900;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
   font-size: 25px;
   color: #034694;
   transition: transform 0.3s ease-out;
@@ -106,7 +107,7 @@ p {
 .nav-links a {
   margin: 10px;
   margin-right: 40px;
-  font-family: 'Merriweather', serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 13px;
   font-weight: bold;
   text-decoration: none;
@@ -130,7 +131,7 @@ p {
   border-radius: 5px;
   color: #fff;
 }
-.contactTab :hover {
+.contactTab:hover {
   background: #fff;
   color: #000;
 }
@@ -243,7 +244,7 @@ p {
 .about-link {
   margin: 10px auto;
   color: #000;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lora', serif;
   font-size: 16px;
   font-weight: bold;
 }
@@ -303,7 +304,7 @@ p {
 
 .projects-section-heading {
   font-size: 25px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Merriweather', serif;
   color: #000;
   width: 25%;
   border-bottom: 3px solid #002d62;
