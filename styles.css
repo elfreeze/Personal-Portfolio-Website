@@ -372,6 +372,7 @@ p {
 
 
 
+
 /*------- footer section styling --------*/
 
 footer {
@@ -436,7 +437,6 @@ footer {
 }
 .font-container > h1 {
   font-size: 30px;
-  font-family: 'Montserrat', sans-serif;
   color: #000;
   width: 25%;
   border-bottom: 3px solid #002d62;
@@ -445,8 +445,6 @@ footer {
 .font-container > p {
   margin: 10px;
   font-size: 20px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: ;
   text-align: left;
   width: 75%;
   color: #000;
@@ -477,7 +475,6 @@ footer {
 
 /*----- beginning of projects page styling -----*/
 .projects-page {
-  font-family: 'Open Sans', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -489,14 +486,12 @@ footer {
 .projects-page-heading {
   width: 40%;
   border-bottom: 3px solid #002d62;
-  font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
   margin-bottom: 10px;
   margin-top: 80px;
 }
 .projects-p {
   font-size: 2rem;
-  font-family: 'Open Sans', sans-serif;
   width: 90%;
   margin-bottom: 20px;
 }
@@ -528,7 +523,6 @@ footer {
 
 /*-------- beginning of individual project page styling ----------*/
 #individual-page-section {
-  font-family: 'Open Sans', sans-serif;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -545,14 +539,12 @@ footer {
 }
 .individual-font-container > h1 {
   font-size: 30px;
-  font-family: 'Montserrat', sans-serif;
   color: #000;
   width: 100%;
   margin-bottom: 20px;
 }
 .individual-font-container > h2 {
   font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
   color: #000;
   width: 250px;
   border-bottom: 3px solid #002d62;
@@ -561,7 +553,6 @@ footer {
 .individual-font-container > p {
   margin: 10px 0;
   font-size: 20px;
-  font-family: 'Open Sans', sans-serif;
   font-weight: ;
   text-align: left;
   width: 100%;
@@ -578,7 +569,6 @@ footer {
 }
 #image-heading {
   font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
   color: #000;
   width: 250px;
   border-bottom: 3px solid #002d62;
