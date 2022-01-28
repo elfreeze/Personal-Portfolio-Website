@@ -13,7 +13,7 @@ font-family: 'Lora', serif;
 
 /*------ beginning of global styling -----*/
 html {
-  font-size: ;
+  font-size: ; 
 }
 h1 {
   font-family: 'Poppins', sans-serif;
@@ -275,7 +275,6 @@ p {
 }
 
 .projects-section-heading {
-  
   font-family: 'Poppins', sans-serif;
   color: #000;
   width: 25%;
@@ -329,7 +328,6 @@ p {
 }
 
 .project-title {
-  font-size: 17px;
   padding: 20px 5px 10px 5px;
   text-align: center;
   font-family: 'Lora', serif;
@@ -359,15 +357,13 @@ footer {
   background: #034694;
 }
 
-.copyright-info {
-  font-family: 'Lora', serif;
+.copyright-info > p {
   color: #fff;
-  font-size: 13px;
 }
 
 @media screen and (max-width:640px) {
-  .copyright-info {
-    
+  .copyright-info > p {
+    font-size: 10px;
   }
 }
 
@@ -458,19 +454,19 @@ footer {
 .projects-page-heading {
   width: 40%;
   border-bottom: 3px solid #002d62;
-  font-size: 3rem;
+  font-size: ;
   margin-bottom: 10px;
   margin-top: 80px;
 }
 .projects-p {
-  font-size: 2rem;
+  font-size: ;
   width: 90%;
   margin-bottom: 20px;
 }
 @media screen and (min-width: 720px) {
   .projects-page-heading {
     width: 30%;
-    font-size: 2.5rem;
+    font-size: ;
     align-self: flex-start;
     margin-left: 10%;
   }
@@ -496,11 +492,11 @@ footer {
 /*-------- beginning of individual project page styling ----------*/
 #individual-page-section {
   display: flex;
+  justify-content: center;
   flex-direction: column;
   width: 100%;
   height: auto;
   margin-top: 100px;
-  background: #fff;
 }
 .individual-font-container {
   display: flex;
@@ -512,8 +508,9 @@ footer {
 .individual-font-container > h1 {
   font-size: 30px;
   color: #000;
-  width: 100%;
+  width: auto;
   margin-bottom: 20px;
+  text-align: center;
 }
 .individual-font-container > h2 {
   font-size: 20px;
@@ -523,7 +520,7 @@ footer {
 }
 
 .individual-font-container > p {
-  margin: 10px 0;
+  margin: 10px auto;
   font-size: 20px;
   font-weight: ;
   text-align: left;
@@ -543,13 +540,7 @@ footer {
   font-size: 20px;
   font-weight: bold;
 }
-#image-heading {
-  font-size: 20px;
-  color: #000;
-  width: 250px;
-  border-bottom: 3px solid #002d62;
-  margin-bottom: 10px;
-}
+
 .image-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -577,15 +568,12 @@ footer {
   #individual-page-section {
     margin-top: 100px;
   }
-  .img-container2 {
-    height: 40vh;
-   }
+  
    .individual-font-container {
      width: auto;
    }
   .individual-font-container h1 {
     font-size: 20px;
-    width: 70%;
   }
   .individual-font-container > h2 {
     font-size: 16px;
