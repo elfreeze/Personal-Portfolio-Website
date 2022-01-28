@@ -49,7 +49,8 @@ p {
   border: 2px solid #002d62;
   border-radius: 5px;
   height: 40px;
-  width: 100px;
+  width: auto;
+  padding: 10px;
   color: #000;
   font-size: 16px;
   display: flex;
@@ -61,7 +62,7 @@ p {
   justify-content: center;
   width: 100%;
 }
-.contact-details {
+.contact-details1 {
   color: #000;
 }
 
