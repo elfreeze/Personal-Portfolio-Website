@@ -15,11 +15,17 @@ font-family: 'Lora', serif;
 html {
   font-size: ;
 }
-h1, h2 {
+h1 {
   font-family: 'Poppins', sans-serif;
+  font-size: ;
+}
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
 }
 p {
   font-family: 'Lora', serif;
+  font-size: 16px;
 }
 .btn {
   margin: 10px 20px;
@@ -86,8 +92,7 @@ p {
 }
 .logo a {
   font-family: 'Poppins', sans-serif;
-  font-weight: 700;
-  font-size: 25px;
+  font-size: 30px;
   color: #034694;
   transition: transform 0.3s ease-out;
   text-decoration: none;
@@ -134,39 +139,8 @@ p {
   background: #fff;
   color: #000;
 }
-.socialBtns {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 30%;
-  height: 100%;
-  margin-left: 120px;
 
-}
-.socialBtn {
-  margin: 20px;
-  width: auto;
-  text-align: center;
-  text-decoration: none;
-  font-size: 25px;
-  transition: transform 0.3s ease-out;
-}
-.socialBtn:hover {
-  color: #000;
-  transform: translateX(2px);
-}
-.btn2 {
-  color: #002d62;
-}
-.btn3 {
-  color: #000;
-}
-.btn4 {
-  color: #5387c2;
-}
-.btn5 {
-  color: #2ab368;
-}
+
 
 @media screen and (max-width: 640px) {
   #navbar {
@@ -192,7 +166,6 @@ p {
     width: auto;
   }
   .nav-links a {
-    font-size: 13px;
     margin-right: 10px;
   }
   .nav-links a:hover {
@@ -244,7 +217,7 @@ p {
   margin: 10px auto;
   color: #000;
   font-family: 'Lora', serif;
-  font-size: 16px;
+  font-size: 25px;
   font-weight: bold;
 }
 
@@ -274,12 +247,12 @@ p {
   }
   
   .text-container > p {
-    font-size: 14px;
+    font-size: 16px;
     width: 90%;
   }
   
   .about-link {
-    
+    font-size: 18;
   }
   
   .img-container {
@@ -560,6 +533,10 @@ footer {
 .individual-font-container > ul {
   margin: 10px;
 }
+.individual-font-container > ul > li {
+  font-family: 'Lora', serif;
+}
+
 
 .links {
   color: #002d62;
