@@ -309,7 +309,7 @@ p {
 }
 
 .project:hover .code {
-  color: #fff;
+  color: #034694;
 }
 .project:hover {
   color: #fff;
@@ -328,7 +328,7 @@ p {
 }
 
 .project-title {
-  padding: 20px 5px 10px 5px;
+  padding: 10px 5px;
   text-align: center;
   font-family: 'Lora', serif;
 }
