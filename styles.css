@@ -186,11 +186,13 @@ p {
 
 /*----- welcome section styling -----*/
 .welcome-section {
-  margin-top: 50px;
+  margin-top: ;
   height: auto;
   display: flex;
   width: 100%;
   text-align: center;
+  max-width: 1500px;
+  margin: 50px auto 10;
 }
 .text-container {
   display: flex;
@@ -200,7 +202,7 @@ p {
   background: #034694;
   height: 80vh;
   width: 60vw;
-  max-height: 1px;
+  max-height: 720px;
 }
 
 .text-container > h1 {
