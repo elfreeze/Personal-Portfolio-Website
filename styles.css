@@ -87,7 +87,7 @@ p {
   z-index: 1;
 }
 .logo {
-  width: 60%;
+  width: 100%;
   text-align: center;
   margin-left: 40px;
   height: 100%;
@@ -106,11 +106,11 @@ p {
   transform: translateX(2px);
 }
 .nav-links {
-  width: 40%;
+  width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
 }
 .nav-links a {
   margin: 10px;
@@ -388,7 +388,7 @@ footer {
 
 /*------ about-section styling ------*/
 .about-section {
-  margin: 80px auto 2;
+  margin: 80px auto 20px auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
