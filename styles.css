@@ -126,7 +126,6 @@ p {
 .nav-links a:hover {
   color: #034694;
   transform: translateY(2px);
-  
 }
 .aboutTab, .projectTab, .blogTab {
   color: #000;
@@ -317,7 +316,7 @@ p {
 
 .code {
   color: #fff;
-  transition: color 0.3s ease-out;
+  transition: color 0.s ease-out;
 }
 
 .project:hover .code {
@@ -325,7 +324,7 @@ p {
 }
 .project:hover {
   color: #fff;
-  transform: translateX(3px);
+  transform: translateY(3px);
 }
 
 .project a:hover {
