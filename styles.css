@@ -403,6 +403,7 @@ footer {
   display: flex;
   justify-content: center;
   height: 40vh;
+  max-height: px;
   width: 100%;
   margin: 0 auto;
   margin-bottom: 5px;
