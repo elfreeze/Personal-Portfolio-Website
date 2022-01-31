@@ -105,7 +105,7 @@ p {
 }
 .logo a:hover {
   color: #000;
-  transform: translateX(2px);
+  transform: translateY(2px);
 }
 .nav-links {
   width: 100%;
@@ -125,7 +125,8 @@ p {
 }
 .nav-links a:hover {
   color: #034694;
-  transform: translateX(2px);
+  transform: translateY(2px);
+  
 }
 .aboutTab, .projectTab, .blogTab {
   color: #000;
@@ -502,7 +503,7 @@ footer {
   align-items: center;  flex-direction: column;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   border-radius: 2px;
-  border: 2px solid #034694;
+  border-bottom: 3px solid #034694;
   padding: 30px 20px 10px 20px;
   height: 200px;
   width: 100%;
@@ -547,6 +548,13 @@ footer {
   background: #034694;
   color: #fff;
   border: none; 
+  transition: transform 0.2s ease-out;
+}
+.send-btn:hover {
+  cursor: pointer;
+  background: transparent;
+  color: #034694;
+  transform: translateY(3px);
 }
 
 @media screen and (max-width: 768px) {
