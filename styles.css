@@ -502,8 +502,8 @@ footer {
   align-items: center;  flex-direction: column;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   border-radius: 2px;
-  border-bottom: 3px solid #034694;
-  padding: 30px 10px auto 10px;
+  border: 2px solid #034694;
+  padding: 30px 20px 10px 20px;
   height: 200px;
   width: 100%;
   font-family: 'Lora', serif;
@@ -514,7 +514,7 @@ footer {
   color: #034694;
 }
 .container > p {
-  font-size: 20px;
+  font-size: 18px;
 }
 #contact-form {
   display: flex;
