@@ -495,10 +495,19 @@ footer {
   margin-bottom: 20px;
   width: 50vw;
   height: 40px;
-  border-radius: 5px;
-  border: 2px solid #002d62;
+  border: 1px solid #034694;
 }
-#contact-form >
+#contact-form > textarea {
+  width: ;
+  height: 20vh;
+  margin-bottom: 40px;
+  border: 1px solid #034694;
+}
+::placeholder {
+  padding-left: 30px;
+  font-size: 16px;
+  font-family: 'Lora', serif;
+}
 
 /*----- ending of contact page styling -----*/
 
@@ -510,7 +519,7 @@ footer {
   flex-direction: column;
   width: 100%;
   height: auto;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 .individual-font-container {
   display: flex;
