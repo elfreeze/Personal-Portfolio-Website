@@ -444,23 +444,41 @@ footer {
   border-bottom: 3px solid #034694;
   margin-bottom: 20px;
 }
+
 .skills-container {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 80%;
+  width: 85%;
   height: auto;
   margin: 40px auto;
 }
-.skills {
-  margin-right: 50px;
-}
-.skills > p {
+.skills-container > p {
   font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  display: block;
+  margin-right: 10px;
 }
-.skills > progress {
-  width: 200px;
-  height: 70px;
+.skill-container {
+  width: 100%; 
+  background-color: #808080;
+  margin-right: 20px;
+}
+
+.skill {
+  text-align: center; 
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  color: #fff; 
+  font-family: 'Poppins',sans-serif;
+}
+
+.html {
+  width: 90%; background-color: #034694;
+} 
+.css {
+  width: 85%; background-color: #034694;
+}
+.js {
+  width: 40%; background-color: #034694;
 }
 
 
