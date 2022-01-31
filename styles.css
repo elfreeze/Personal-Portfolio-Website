@@ -437,6 +437,21 @@ footer {
   width: 75%;
   color: #000;
 }
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  height: auto;
+  margin: 40px auto;
+}
+.skills {
+  margin-right: 50px;
+}
+.skills > progress {
+  width: ;
+  height: 50px;
+}
 
 
 
@@ -454,6 +469,9 @@ footer {
   .font-container p {
     font-size: 16px;
     width: 85%;
+  }
+  .skills-container {
+    flex-direction: column;
   }
 }
 
