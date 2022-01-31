@@ -388,7 +388,7 @@ footer {
 
 /*------ about-section styling ------*/
 .about-section {
-  margin-top: 100px;
+  margin: 80px auto 2;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -397,6 +397,7 @@ footer {
   width: 100%;
   height: auto;
   background: #fff;
+  max-width: 1500px;
 }
 .img-container2 {
   display: flex;
