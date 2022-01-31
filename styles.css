@@ -286,7 +286,6 @@ p {
 
 .projects-section-heading {
   font-family: 'Poppins', sans-serif;
-  color: #000;
   width: 25%;
   border-bottom: 3px solid #002d62;
   margin-bottom: 30px;
@@ -474,14 +473,16 @@ footer {
 
 /*-------- beginning contact page styling ----------*/
 .contact-page-section {
+  margin: 80px auto 20px auto;
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 60px;
+  height: auto;
 }
-.contact-page-section h2 {
-  font-size: 60px;
+.contact-page-section > h2 {
+  font-family: 'Poppins', sans-serif;
+  width: 25%;
+  border-bottom: 3px solid #002d62;
+  margin-bottom: 30px;
 }
 
 /*----- ending of contact page styling -----*/
