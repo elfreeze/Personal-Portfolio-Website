@@ -320,7 +320,8 @@ p {
 }
 
 .project:hover .code {
-  color: #595c60;
+  color: #034694
+  ;
 }
 .project:hover {
   color: #fff;
