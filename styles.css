@@ -437,6 +437,13 @@ footer {
   width: 75%;
   color: #000;
 }
+.skills-heading {
+  margin-top: 50px;
+  font-family: 'Poppins', sans-serif;
+  width: 25%;
+  border-bottom: 3px solid #034694;
+  margin-bottom: 20px;
+}
 .skills-container {
   display: flex;
   justify-content: space-between;
@@ -448,9 +455,12 @@ footer {
 .skills {
   margin-right: 50px;
 }
+.skills > p {
+  font-family: 'Poppins', sans-serif;
+}
 .skills > progress {
-  width: ;
-  height: 50px;
+  width: 200px;
+  height: 70px;
 }
 
 
@@ -469,6 +479,9 @@ footer {
   .font-container p {
     font-size: 16px;
     width: 85%;
+  }
+  .skills-heading {
+    font-size: 20px;
   }
   .skills-container {
     flex-direction: column;
