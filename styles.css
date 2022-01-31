@@ -138,7 +138,7 @@ p {
   text-align: center;
   width: 100px;
   height: 25px;
-  border-radius: px;
+  border-radius: 2px;
   color: #fff;
 }
 .contactTab:hover {
@@ -517,6 +517,12 @@ footer {
   background: #034694;
   color: #fff;
   border: none; 
+}
+
+@media screen and (max-width: 768px) {
+  .contact-page-section > h2 {
+    font-size: 20px;
+  }
 }
 
 /*----- ending of contact page styling -----*/
