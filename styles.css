@@ -228,6 +228,10 @@ p {
   font-weight: bold;
 }
 
+.about-link:hover {
+  color: #fff;
+}
+
 .img-container {
   height: 80vh;
   width: 40vw;
@@ -250,19 +254,18 @@ p {
   }
   
   .text-container > h1 {
-    margin-bottom: 20px;
-    font-size: 30px;
+    margin-bottom: 10px;
+    font-size: 28px;
   }
   
   .text-container > p {
-    font-size: 16px;
+    font-size: 1px;
     width: 90%;
   }
   
   .about-link {
     font-size: 20px;
   }
-  
   .img-container {
     height: 50vh;
     width: 100%;
