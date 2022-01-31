@@ -442,7 +442,7 @@ footer {
   font-family: 'Poppins', sans-serif;
   width: 25%;
   border-bottom: 3px solid #034694;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .skills-container {
@@ -450,7 +450,7 @@ footer {
   align-items: center;
   width: 85%;
   height: auto;
-  margin: 40px auto;
+  margin: 10px auto 40px auto;
 }
 .skills-container > p {
   font-family: 'Poppins', sans-serif;
@@ -504,6 +504,9 @@ footer {
   }
   .skills-container {
     flex-direction: column;
+  }
+  .skill-container {
+    margin-bottom: 15px;
   }
 }
 
