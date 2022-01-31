@@ -476,7 +476,10 @@ footer {
   margin: 80px auto 20px auto;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
   height: auto;
+
 }
 .contact-page-section > h2 {
   font-family: 'Poppins', sans-serif;
@@ -484,6 +487,18 @@ footer {
   border-bottom: 3px solid #002d62;
   margin-bottom: 30px;
 }
+#contact-form {
+  display: flex;
+  flex-direction: column;
+}
+#contact-form > input {
+  margin-bottom: 20px;
+  width: 50vw;
+  height: 40px;
+  border-radius: 5px;
+  border: 2px solid #002d62;
+}
+#contact-form >
 
 /*----- ending of contact page styling -----*/
 
