@@ -500,13 +500,23 @@ footer {
 #contact-form > textarea {
   width: ;
   height: 20vh;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   border: 1px solid #034694;
 }
 ::placeholder {
   padding-left: 30px;
   font-size: 16px;
   font-family: 'Lora', serif;
+}
+.send-btn {
+  width: 130px;
+  height: 35px;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  place-self: center;
+  background: #034694;
+  color: #fff;
+  border: none;
 }
 
 /*----- ending of contact page styling -----*/
