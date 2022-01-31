@@ -337,9 +337,10 @@ p {
 }
 
 .project-title {
-  padding: 10px 5px;
+  padding: 1px 5px;
   text-align: center;
   font-family: 'Lora', serif;
+  font-size: 20px;
 }
 
 @media screen and (max-width: 768px) {
@@ -349,6 +350,10 @@ p {
   }
   .project {
     height: 400px;
+  }
+  .project-title {
+    padding: 25px 5px;
+    font-size: 20px;
   }
 }
 
