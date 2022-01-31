@@ -316,7 +316,7 @@ p {
 
 .code {
   color: #fff;
-  transition: color 0.s ease-out;
+  transition: color 0.2s ease-out;
 }
 
 .project:hover .code {
