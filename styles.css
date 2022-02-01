@@ -260,9 +260,7 @@ p {
     margin-bottom: 30px;
   }
   
-  .text-container > p {
-    width: 95%;
-  }
+  
   
   .about-link {
     margin-bottom: 20px;
@@ -335,10 +333,10 @@ p {
 }
 
 .project-title {
-  padding: 15px 5px;
+  padding: 8px 5px;
   text-align: center;
   font-family: 'Poppins', san-serif;
-  
+  font-size: 15px;
 }
 
 @media screen and (max-width: 768px) {
@@ -346,7 +344,7 @@ p {
     height: 350px;
   }
   .project-title {
-    padding: 25px 5px;
+    padding: 12px 5px;
   }
 }
 
