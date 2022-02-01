@@ -42,7 +42,7 @@ p {
   color: #fff;
   text-align: center;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 1.9rem;
   font-weight: bold;
   font-family: 'Lora', serif;
   transition: transform 0.3s ease-out;
@@ -60,7 +60,7 @@ p {
   width: auto;
   padding: 10px;
   color: #000;
-  font-size: 16px;
+  font-size: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -76,7 +76,7 @@ p {
 
 @media screen and (max-width: 768px) {
   .btn {
-    margin: 10px;
+    margin: 15px;
 }
 }
 
