@@ -221,7 +221,7 @@ p {
   margin: 10px auto;
   color: #000;
   font-family: 'Lora', serif;
-  font-size: 25px;
+  font-size: clamp(1.3rem, 2vw, 1.6rem);
   font-weight: bold;
 }
 
@@ -231,7 +231,7 @@ p {
 
 .img-container {
   height: min(640px, 80vh);
-  width: min(720px, 0vw);
+  width: min(720px, 60vw);
   max-height: 720px;
 }
 .myImg {
@@ -255,12 +255,10 @@ p {
   }
   
   .text-container > p {
-    font-size: 18px;
     width: 95%;
   }
   
   .about-link {
-    font-size: 20px;
     margin-bottom: 20px;
   }
   .img-container {
