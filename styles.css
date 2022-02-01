@@ -13,11 +13,10 @@ font-family: 'Lora', serif;
 
 /*------ beginning of global styling -----*/
 html {
-  font-size: ; 
+  font-family: 'Lora', serif;
 }
 h1 {
   font-family: 'Poppins', sans-serif;
-  font-size: ;
   text-align: center;
 }
 h2 {
@@ -27,7 +26,7 @@ h2 {
 }
 p {
   font-family: 'Lora', serif;
-  font-size: 16px;
+  font-size: max(1.2rem, 1.2vw);
 }
 .btn {
   margin: 10px 20px;
@@ -99,7 +98,7 @@ p {
 }
 .logo a {
   font-family: 'Poppins', sans-serif;
-  font-size: 30px;
+  font-size: clamp(1.25rem, 2.5vw, 2rem);
   color: #034694;
   transition: transform 0.3s ease-out;
   text-decoration: none;
@@ -119,8 +118,8 @@ p {
   margin: 10px;
   margin-right: 40px;
   font-family: 'Poppins', sans-serif;
-  font-size: 13px;
-  font-weight: bold;
+  font-size: 3vw;
+  font-weight: ;
   text-decoration: none;
   transition: transform 0.3s ease-out;
 }
@@ -162,7 +161,6 @@ p {
     height: 50%;
   }
   .logo a {
-    font-size: 20px;
   }
   .logo a:hover {
     
