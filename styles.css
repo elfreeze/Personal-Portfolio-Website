@@ -26,7 +26,8 @@ h2 {
 }
 p {
   font-family: 'Lora', serif;
-  font-size: max(1.2rem, 1.2vw);
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  line-height: 1.5;
 }
 .btn {
   margin: 10px 20px;
@@ -118,7 +119,7 @@ p {
   margin: 10px;
   margin-right: 40px;
   font-family: 'Poppins', sans-serif;
-  font-size: clamp(0.rem, 2vw, 0.8rem);
+  font-size: clamp(0.7rem, 1.5vw, 0.8rem);
   font-weight: ;
   text-decoration: none;
   transition: transform 0.3s ease-out;
@@ -192,7 +193,6 @@ p {
   text-align: center;
   max-width: 1500px;
   margin: 50px auto 10px auto;
-  background-color: red;
 }
 .text-container {
   display: flex;
@@ -213,7 +213,6 @@ p {
 }
 
 .text-container > p {
-  font-size: 20px;
   width: 90%;
   color: #fff;
 }
@@ -257,7 +256,7 @@ p {
   
   .text-container > p {
     font-size: 18px;
-    width: 90%;
+    width: 95%;
   }
   
   .about-link {
