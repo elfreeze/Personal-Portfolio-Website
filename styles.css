@@ -269,7 +269,7 @@ p {
     margin-bottom: 20px;
   }
   .img-container {
-    height: 50vh;
+    height: 0vh;
     width: 100%;
   }
 }  
