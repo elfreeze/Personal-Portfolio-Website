@@ -250,13 +250,13 @@ p {
     margin-top: 70px;
   }
   .text-container {
-    height: 50vh;
+    height: 80vh;
     width: 100%;
   }
   
   .text-container > h1 {
     margin-bottom: 10px;
-    font-size: 28px;
+    font-size: 30px;
   }
   
   .text-container > p {
