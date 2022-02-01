@@ -256,16 +256,17 @@ p {
   
   .text-container > h1 {
     margin-bottom: 30px;
-    font-size: 3px;
+    font-size: 35px;
   }
   
   .text-container > p {
-    font-size: 17px;
+    font-size: 18px;
     width: 90%;
   }
   
   .about-link {
     font-size: 20px;
+    margin-bottom: 20px;
   }
   .img-container {
     height: 50vh;
