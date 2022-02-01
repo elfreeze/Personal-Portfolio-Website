@@ -251,7 +251,7 @@ p {
   }
   .text-container {
     height: 80vh;
-    width: 100%;
+    width: 100%; 
   }
   
   .text-container > h1 {
@@ -269,7 +269,7 @@ p {
     margin-bottom: 20px;
   }
   .img-container {
-    height: 0vh;
+    height: 60vh;
     width: 100%;
   }
 }  
