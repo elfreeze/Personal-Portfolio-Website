@@ -191,7 +191,7 @@ p {
 
 /*----- welcome section styling -----*/
 .welcome-section {
-  height: 30rem;
+  height: auto;
   display: flex;
   width: 100%;
   text-align: center;
@@ -204,9 +204,9 @@ p {
   align-items: center;
   justify-content: center;
   background: #034694;
-  height: auto;
+  height: 30rem;
   width: min(720px, 60vw);
-  padding: 30px;
+  padding: 20px;
 } 
 
 .text-container > h1 {
@@ -234,7 +234,7 @@ p {
 }
 
 .img-container {
-  height: auto;
+  height: 30rem;
   width: min(720px, 60vw);
   max-height: 720px;
 }
