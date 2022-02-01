@@ -365,6 +365,8 @@ footer {
 
 .copyright-info > p {
   color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2px;
 }
 
 @media screen and (max-width: 768px) {
