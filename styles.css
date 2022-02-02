@@ -54,7 +54,7 @@ p {
   transform: translateY(3px);
 }
 .btn-show-all {
-  border: 2px solid #034694;
+  border: 2px solid #034694; 
   border-radius: 5px;
   height: 40px;
   width: auto;
@@ -63,7 +63,7 @@ p {
   font-size: 1rem;
   display: flex;
   justify-content: center;
-  align-
+  align-items: center;
   place-self: center;
 }
 .back-btn{
