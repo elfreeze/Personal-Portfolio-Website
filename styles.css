@@ -63,7 +63,21 @@ p {
   font-size: 1rem;
   display: flex;
   justify-content: center;
+  place-self: center;
+}
+.back-btn{
+  border: 2px solid #034694;
+  border-radius: 5px;
+  height: 40px;
+  width: 200px;
+  place-items: center;
+  padding: 10px;
+  color: #000;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
   align-items: center;
+  place-self: center;
 }
 .contact-links {
   display: flex;
