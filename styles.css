@@ -390,7 +390,7 @@ footer {
   display: flex;
   justify-content: center;
   height: 40vh;
-  max-height: 600px;
+  max-height: 500px;
   width: 100%;
   margin: 0 auto;
   margin-bottom: 5px;
@@ -460,9 +460,9 @@ footer {
    .font-container {
      width: auto;
    }
-   
+    
   .font-container p {
-    width: 85%;
+    width: 90%;
   }
   .skills-heading {
     font-size: 20px;
