@@ -205,7 +205,7 @@ p {
   justify-content: center;
   background: #034694;
   height: 30rem;
-  width: 60vw);
+  width: 60vw;
   padding: 20px;
 } 
 
@@ -215,7 +215,7 @@ p {
   color: #fff;
   text-align: center;
 }
-
+ 
 .text-container > p {
   width: 90%;
   color: #fff;
