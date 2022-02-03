@@ -697,3 +697,38 @@ footer {
 }
 
 /*-------- ending of individual project page styling -----------*/
+
+
+/*----- beginning of blog page styling -----*/
+.blog-posts-section {
+  text-align: center;
+  padding: 30px 30px;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin-top: 80px;
+}
+
+.blog-posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  grid-gap: 30px;
+  height: auto;
+  width: auto;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.blog-post{
+  background: ;
+}
+
+@media screen and (max-width: 768px) {
+ 
+}
+
+
+/*----- ending of blog page styling -----*/
