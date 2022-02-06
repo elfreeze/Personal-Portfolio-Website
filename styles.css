@@ -607,7 +607,7 @@ footer {
   flex-direction: column;
   width: 100%;
   height: auto; 
-  margin-t: 80px auto 20px auto;
+  margin: 80px auto 20px auto;
   max-width: 1500px;
 }
 .individual-font-container {
