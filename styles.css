@@ -393,7 +393,7 @@ footer {
   margin: 80px auto 20px auto;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
@@ -603,15 +603,17 @@ footer {
 #individual-page-section {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
   width: 100%;
-  height: auto;
-  margin-top: 80px;
+  height: auto; 
+  margin-t: 80px auto 20px auto;
+  max-width: 1500px;
 }
 .individual-font-container {
   display: flex;
   flex-direction: column;
-  justify-content: ;
+  justify-content: center;
   align-items: ;
   margin: auto 30px;
 }
