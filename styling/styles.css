@@ -240,7 +240,7 @@ p {
 
 .about-link {
   margin: 10px auto;
-  color: #000;
+  color: #034694;
   font-family: 'Lora', serif;
   font-size: clamp(1.3rem, 2vw, 1.6rem);
   font-weight: bold;
@@ -253,7 +253,7 @@ p {
 .img-container {
   height: 25rem;
   width: auto;
-  border: 5px solid #034694;
+  border: 5px solid #000;
   border-radius: 50%;
   overflow: hidden;
 }
