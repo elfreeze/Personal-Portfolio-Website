@@ -235,7 +235,7 @@ p {
  
 .text-container > p {
   width: 90%;
-  color: #808080;
+  color: #000;
 }
 
 .about-link {
@@ -275,7 +275,7 @@ p {
   }
   
   .text-container > h1 {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
   
   .about-link {
