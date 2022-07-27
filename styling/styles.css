@@ -214,29 +214,29 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
   max-width: 1500px;
   margin: 50px auto 10px auto;
+  padding: auto 100px;
 }
 .text-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   height: 30rem;
   width: 60vw;
-  padding: 20px;
+  padding: 10px 50px;
 } 
 
 .text-container > h1 {
-  font-size: clamp(2.2rem, 4vw, 3.5rem);
+  font-size: clamp(2.5rem, 5vw, 4rem);
   color: #034694;
-  text-align: center;
+  text-align: left;
 }
  
 .text-container > p {
-  width: 90%;
   color: #000;
+  font-size: clamp(1.2rem, 0.5vw, 2rem);
+  width: 100%;
 }
 
 .about-link {
@@ -254,7 +254,7 @@ p {
 .img-container {
   height: 25rem;
   width: auto;
-  border: 5px solid #000;
+  border: 5px solid rgb(218, 208, 208);
   border-radius: 50%;
   overflow: hidden;
 }
