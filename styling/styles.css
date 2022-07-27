@@ -12,7 +12,8 @@ font-family: 'Lora', serif;
 }
 
 /*------ beginning of global styling -----*/
-html {
+body {
+  background: #f5f0f0;
   font-family: 'Lora', serif;
 }
 h1 {
