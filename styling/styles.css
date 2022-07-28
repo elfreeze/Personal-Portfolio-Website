@@ -197,13 +197,12 @@ p {
 /*----- welcome section styling -----*/
 .welcome-section {
   width: auto;
-  height: 100vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
   max-width: 1500px;
   margin: 50px auto 30px auto;
-  padding: auto 200px;
 }
 .text-container {
   display: flex;
