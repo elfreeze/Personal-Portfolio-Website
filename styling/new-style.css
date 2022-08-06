@@ -153,7 +153,10 @@
   .contactTab:hover {
     background: #1381ff;
   }
-  @media only screen and (min-width: 480px) {
+  @media only screen and (min-width: 640px) {
+    #navbar {
+        height: 90px;
+    }
       .nav-links a {
         width: 70px;
         display: flex;
@@ -290,7 +293,7 @@
 
 
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 640px) {
   .welcome-section {
   }
   
@@ -299,12 +302,12 @@
   } 
   
   .text-container > h1 {
-    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-size: 40px;
   }
    
   .text-container > p {
-    font-size: clamp(1.2rem, 0.5vw, 2rem);
-    padding: 30px;
+    font-size: 25px;
+    padding: 30px 100px;
   }
   
   .about-link {
@@ -312,6 +315,8 @@
   }
   
   .img-container {
+    height: auto;
+    max-height: 300px;
     width: 40vw;
     max-width: 300px;
     border-radius: 50%;
@@ -345,44 +350,6 @@
         height: 100%;
         padding: 10px 20px;
         margin: 0;
-      } 
-      
-      .text-container > h1 {
-        width: 100%;
-        font-size: clamp(2.5rem, 5vw, 4rem);
-        text-align: left;
-      }
-       
-      .text-container > p {
-        font-size: clamp(1.2rem, 0.5vw, 2rem);
-        padding: 0;
-      }
-      
-      .about-link {
-        width: 100%;
-        margin: 10px;
-        font-size: clamp(1.3rem, 2vw, 1.6rem);
-      }
-      
-      .img-container {
-        height: 20rem;
-        width: auto;
-      }
-      .myImg {
-        height: 100%;
-        width: 100%;
-      }
-      .contact-links {
-        justify-content: unset;
-        padding: 0;
-      }
-      .contact-link {
-        margin: 10px;
-      }
-    .welcome-section {
-
-      }
-      .text-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -392,33 +359,68 @@
       
       .text-container > h1 {
         width: 100%;
-        font-size: clamp(2.5rem, 5vw, 4rem);
-        color: #034694;
+        font-size: 60px;
         text-align: left;
         margin-block-end: 20px;
+        color: #034694;
       }
        
       .text-container > p {
-        color: #000;
-        font-size: clamp(1.2rem, 0.5vw, 2rem);
+        font-size: 25px;
+        padding: 0;
         width: 100%;
         margin-block-end: 20px;
+        color: #000;
       }
       
       .about-link {
-        width: auto;
-        text-align: start;
-        place-self: start;
+        width: 100%;
         margin: 10px;
-        margin-block-end: 20px;
-        font-size: clamp(1.3rem, 2vw, 1.6rem);
+        font-size: 25px;
       }
       
       .img-container {
         height: 20rem;
         width: 30vw;
-        max-width: 600px;
+        margin: 10px;
+        margin-block-end: 20px;
       }
+      .myImg {
+        height: 100%;
+        width: 100%;
+      }  .contact-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .contact-link {
+        margin: 10px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.9rem;
+        font-weight: bold;
+        font-family: 'Lora', serif;
+        transition: transform 0.3s ease-out;
+      }
+      .fa-github {
+        color: #000;
+      }
+      .fa-twitter {
+        color: #7bb2f1;
+      }
+      .fa-whatsapp {
+        color: #088018;
+      }
+      .fa-at {
+        color: #000;
+      }
+      .contact-link:hover {
+        color: #000;
+        background: transparent;
+        transform: translateY(3px);
+      }
+      
+    
 }
 
 /*---------------------------------
@@ -496,7 +498,7 @@ article h2 {
     width: 70%; background-color: #034694;
   }
 
-  @media only screen and (min-width: 720px) {
+  @media only screen and (min-width: 640px) {
     .about-section {
         display: flex;
         flex-direction: row;
