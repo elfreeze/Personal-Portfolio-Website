@@ -236,11 +236,13 @@
     text-align: center;
     margin: 0 auto;
   }
+  
   .text-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-block-start: 150px;
+    align-items: center;
+    margin-block-start: 100px;
     margin-block-end: 50px;
   } 
   
@@ -253,7 +255,7 @@
     color: #000;
     font-size: clamp(1.2rem, 0.5vw, 2rem);
     width: 100%;
-    padding: 10px;
+    padding: 20px;
   }
   
   .about-link {
@@ -261,10 +263,11 @@
     font-family: 'Lora', serif;
     font-size: clamp(1.3rem, 2vw, 1.6rem);
     font-weight: bold;
+    margin-block-end: 20px;
   }
   
   .img-container {
-    width: 50vw;
+    width: 70vw;
     border: 5px solid rgb(218, 208, 208);
     border-radius: 50%;
     overflow: hidden;
@@ -279,8 +282,7 @@
     align-items: center;
   }
   .contact-link {
-    margin: 10px;transparent;
-    color: #034694;
+    margin: 10px;
     text-align: center;
     text-decoration: none;
     font-size: 1.9rem;
@@ -288,7 +290,18 @@
     font-family: 'Lora', serif;
     transition: transform 0.3s ease-out;
   }
-  
+  .fa-github {
+    color: #000;
+  }
+  .fa-twitter {
+    color: #7bb2f1;
+  }
+  .fa-whatsapp {
+    color: #088018;
+  }
+  .fa-at {
+    color: #000;
+  }
   .contact-link:hover {
     color: #000;
     background: transparent;
