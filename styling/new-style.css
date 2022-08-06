@@ -179,7 +179,7 @@
         font-size: clamp(1.25rem, 2.5vw, 1.6rem);
       }
       .nav-links {
-        width: 60%;
+        width: unset;
         justify-content: center;
         
       }
