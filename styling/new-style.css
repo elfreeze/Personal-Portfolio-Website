@@ -351,7 +351,7 @@
 @media only screen and (min-width: 720px) {
     .welcome-section {
         width: auto;
-        height: 50vh;
+        height: 70vh;
         flex-direction: row;
         justify-content: center;
         margin: 0;
@@ -402,6 +402,7 @@
     .welcome-section {
         width: auto;
         height: 100vh;
+        max-height: 1440px;
         justify-content: center;
         max-width: 1440px;
         margin: 10px auto;
@@ -441,6 +442,7 @@
       .img-container {
         height: 20rem;
         width: 30vw;
+        max-width: 600px;
       }
 }
 
@@ -594,6 +596,7 @@ article h2 {
         padding: 30px;
         max-width: 1440px;
         margin: 0 auto;
+        background: red;
      }
     article {
         padding: 30px;
