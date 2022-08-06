@@ -11,6 +11,10 @@
   body {
     background: #f0f2f5;
     font-family: 'Lora', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   h1 {
     font-family: 'Poppins', sans-serif;
@@ -81,16 +85,6 @@
     color: #000;
   }
   
-  @media only screen and (min-width: 375px) {
-    .btn {
-      margin: 15px;
-  }
-  .contact-links {
-    align-items: center;
-    justify-content: center;
-  }
-  }
-  
 
   /*----- navigation menu styling -----*/
 #navbar {
@@ -137,8 +131,7 @@
   .nav-links a {
     display: flex;
     justify-content: center;
-    margin: 15px;
-    margin-right: 10px;
+    margin: 10px;
     font-family: 'Poppins', sans-serif;
     font-size: clamp(0.7rem, 1.5vw, 0.8rem);
     text-decoration: none;
@@ -165,15 +158,140 @@
   .contactTab:hover {
     background: #1381ff;
   }
-  @media screen and (min-width: 375px) {
+  @media only screen and (min-width: 480px) {
       .nav-links a {
         width: 70px;
         display: flex;
         justify-content: center;
-        margin-right: 10px;
     }
       .contactTab {
         height: 22px;
     } 
+  }
+  @media only screen and (min-width: 720px) {
+    #navbar {
+        flex-direction: row;
+        justify-content: space-between;
+        height: 50px;
+      }
+      .logo {
+        text-align: left;
+        width: 30%;
+        justify-content: flex-start;
+        border-bottom: unset;
+      }
+      .logo a {
+        font-size: clamp(1.25rem, 2.5vw, 1.6rem);
+      }
+      .nav-links {
+        width: 60%;
+        justify-content: center;
+        
+      }
+      .nav-links a {
+        font-size: clamp(0.7rem, 1.5vw, 0.8rem);
+      }
+      .contactTab {
+        height: 25px;
+      }
+  }
+  @media only screen and (min-width: 1024px) {
+    #navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 50px;
+        width: 100%;
+      }
+      .logo {
+        margin-inline-start: 40px;
+      }
+      .logo a {
+        font-size: clamp(1.25rem, 2.5vw, 1.6rem);
+      }
+      .nav-links {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-inline-end: 20px;
+      }
+      .nav-links a {
+        align-items: center;
+        width: 90px;
+        height: 30px;
+        margin: 10px;
+        font-size: clamp(0.7rem, 1.5vw, 0.8rem);
+      }
+  }
+
+  /*----- welcome section styling -----*/
+.welcome-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-block-start: 150px;
+    margin-block-end: 50px;
+  } 
+  
+  .text-container > h1 {
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    color: #034694;
+  }
+   
+  .text-container > p {
+    color: #000;
+    font-size: clamp(1.2rem, 0.5vw, 2rem);
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .about-link {
+    color: #034694;
+    font-family: 'Lora', serif;
+    font-size: clamp(1.3rem, 2vw, 1.6rem);
+    font-weight: bold;
+  }
+  
+  .img-container {
+    width: 50vw;
+    border: 5px solid rgb(218, 208, 208);
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .myImg {
+    height: 100%;
+    width: 100%;
+  }
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-link {
+    margin: 10px;transparent;
+    color: #034694;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.9rem;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+    transition: transform 0.3s ease-out;
+  }
+  
+  .contact-link:hover {
+    color: #000;
+    background: transparent;
+    transform: translateY(3px);
   }
   
