@@ -475,11 +475,13 @@
     transition: transform 0.3s ease-in-out;
     text-decoration: none;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .project-img-container {
-    height: 55%;
+    height: 50%;
   }
-  
   .code {
     color: #fff;
     transition: color 0.2s ease-out;
@@ -488,11 +490,6 @@
   .project:hover .code {
     color: #034694
     ;
-  }
-  
-  .project a:hover {
-    color: #000;
-    transform: translateY(5px);
   }
   .project-image {
     height: 100%;
@@ -511,12 +508,48 @@
     text-align: center;
     font-family: 'Poppins', san-serif;
     font-size: 14px;
+    color: #000;
   }
   .project-summary > p {
     font-size: clamp(1rem, 1vw, 1.25rem)
   }
-
-  
+  .project > a {
+    text-decoration: none;
+    border: 2px solid #034694; 
+    border-radius: 50px;
+    height: 35px;
+    width: 150px;
+    padding: 5px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease-out;
+  }
+  .project a:hover {
+    background: #1381ff;
+    color: #000;
+    transform: translateY(5px);
+  }
+  .btn-show-all {
+    border: 2px solid #034694; 
+    border-radius: 50px;
+    height: 45px;
+    width: 150px;
+    padding: 10px;
+    color: #000;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-self: center;
+  }
+  .btn-show-all > i {
+    margin-inline-start: 30px;
+  }
+  .btn-show-all:hover {
+    background: #1381ff;
+  }
 
   /*------- footer section styling --------*/
 
