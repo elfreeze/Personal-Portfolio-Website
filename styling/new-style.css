@@ -188,6 +188,7 @@
       }
       .contactTab {
         height: 25px;
+        width: 70px;
       }
   }
   @media only screen and (min-width: 1024px) {
