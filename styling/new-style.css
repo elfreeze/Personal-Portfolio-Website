@@ -332,7 +332,8 @@
   }
   
   .img-container {
-    width: 80vw;
+    width: 40vw;
+    max-width: 300px;
     border-radius: 50%;
   }
   .contact-links {
