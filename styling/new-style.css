@@ -163,61 +163,40 @@
         height: 22px;
     } 
   }
-  @media only screen and (min-width: 720px) {
+  @media only screen and (min-width: 1024px) {
     #navbar {
         flex-direction: row;
         justify-content: space-between;
         height: 50px;
+        width: 100%;
       }
       .logo {
         text-align: left;
         width: 30%;
         justify-content: flex-start;
         border-bottom: unset;
-      }
-      .logo a {
-        font-size: clamp(1.25rem, 2.5vw, 1.6rem);
-      }
-      .nav-links {
-        width: unset;
-        justify-content: center;
-        
-      }
-      .nav-links a {
-        font-size: clamp(0.7rem, 1.5vw, 0.8rem);
-      }
-      .contactTab {
-        height: 25px;
-        width: 70px;
-      }
-  }
-  @media only screen and (min-width: 1024px) {
-    #navbar {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        height: 50px;
-        width: 100%;
-      }
-      .logo {
         margin-inline-start: 40px;
       }
       .logo a {
         font-size: clamp(1.25rem, 2.5vw, 1.6rem);
       }
       .nav-links {
-        width: 50%;
-        display: flex;
+        width: unset;
         align-items: center;
         justify-content: flex-end;
         margin-inline-end: 20px;
+        width: 50%;
       }
       .nav-links a {
+        font-size: clamp(0.7rem, 1.5vw, 0.8rem);
         align-items: center;
         width: 90px;
         height: 30px;
         margin: 10px;
-        font-size: clamp(0.7rem, 1.5vw, 0.8rem);
+      }
+      .contactTab {
+        height: 25px;
+        width: 70px;
       }
   }
 
@@ -350,13 +329,15 @@
   }
 }
 
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 1024px) {
     .welcome-section {
         width: auto;
-        height: 70vh;
         flex-direction: row;
+        height: 100vh;
+        max-height: 1440px;
         justify-content: center;
-        margin: 0;
+        max-width: 1440px;
+        margin: 10px auto;
       }
       .text-container {
         text-align: left;
@@ -398,16 +379,8 @@
       .contact-link {
         margin: 10px;
       }
-}
-
-@media only screen and (min-width: 1024px) {
     .welcome-section {
-        width: auto;
-        height: 100vh;
-        max-height: 1440px;
-        justify-content: center;
-        max-width: 1440px;
-        margin: 10px auto;
+
       }
       .text-container {
         display: flex;
