@@ -7,7 +7,7 @@
 <title>Hafeez Abdallah - Web Developer | Content Creator | Digital Marketer</title>
 
 <!-- JavaScript -->
-<script src="script.js"></script>
+<script src="script.js" defer></script>
 
 <!-- favicons -->
 <link rel="apple-touch-icon" sizes="57x57" href="/images/apple-icon-57x57.png">
@@ -40,21 +40,20 @@
 <body>
   
   <!-- navigation bar section -->
-  <header>
-      <a class="logo" href="index.html"><img src="/images/logo.png" alt=""></a>
-    <nav class="top-nav">
-      <ul class="nav-links">
-        <li class="nav-link"><a href="#about-section" class="aboutTab nav">about</a></li>
-        <li class="nav-link"><a href="/blog/index.html" class="blogTab nav">blog</a></li>
-        <li class="nav-link"><a href="/resources/contact.html" class="contactTab nav">contact</a></li>
+  <header class="header">
+    <a class="nav-logo" href="index.html"><img src="/images/logo.png" alt=""></a>
+    <nav class="navbar">
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="#about-section" class="aboutTab nav-link">about</a></li>
+        <li class="nav-item"><a href="/blog/index.html" class="blogTab nav-link">blog</a></li>
+        <li class="nav-item"><a href="/resources/contact.html" class="contactTab nav-link">contact</a></li>
       </ul>
-      <div class="hamburger">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </div>
     </nav>
-    
+    <div class="hamburger">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
   </header>
 
   <!-- welcome section -->
