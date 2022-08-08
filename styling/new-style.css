@@ -1,6 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Poppins:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,500;0,700;0,800;0,900;1,500;1,700;1,800;1,900&family=Alegreya:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
 
-/*-----------------------------------
+/*-----------
+    font-family: 'Alegreya', serif;
+
+    font-family: 'Alegreya Sans', sans-serif;------------------------
  global attributes 
  -----------------------------------*/
 * {
@@ -20,20 +23,18 @@
    --------------------------------*/
   body {
     background: #f0f2f5;
-    font-family: 'Lora', serif;
+    font-family: 'Alegreya', serif;
   }
   h1 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Alegreya Sans', sans-serif;
   }
   h2, h3 {
-    font-family: 'Poppins', sans-serif;
-    font-size: clamp(1.25rem, 2vw, 1.9rem);
+    font-family: 'Alegreya Sans', sans-serif;
     width: auto;
     margin-top: 20px;
   }
   p {
-    font-family: 'Lora', serif;
-    font-size: clamp(1rem, 2vw, 1.25rem);
+    font-family: 'Alegreya', serif;
     line-height: 1.5;
     margin: 10px;
   }
@@ -94,30 +95,30 @@ header {
     align-items: center;
     justify-content: center;
     height: 100px;
-    width: 100%;
     background: #fff;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
   }
   .logo {
+    background: blue;
     text-align: center;
-    width: 70%;
+    width: 100%;
     height: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: auto; 
     border-bottom: 1px solid #000;
   }
-  .logo > a > img {
-    width: 100%;
-    height: 100%;
+  .logo > img {
+    width: 50%;
+    height: 50%;
   }
   .logo a:hover {
     color: #1381ff;
     transform: translateY(2px);
   }
-  .nav-links {
-    width: auto;
+  nav {
+    background: red;
+    width: 100%;
     height: 50%;
     display: flex;
     align-items: center;
@@ -153,6 +154,43 @@ header {
   .contactTab:hover {
     background: #1381ff;
   }
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .nav-item {
+    margin: 20px;
+  }
+  .nav-link {
+    color: #fff;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    width: 10%;
+  }
+
+.hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  .nav-logo {
+    width: 70%;
+  }
+
+
+
+
+
+
   @media only screen and (min-width: 640px) {
     #navbar {
         height: 90px;
@@ -168,27 +206,25 @@ header {
   }
   @media only screen and (min-width: 1024px) {
     header {
-      background: red;
         flex-direction: row;
         justify-content: space-between;
-        height: 100px;
+        height: 80px;
         position: fixed;
         top: 0;
         z-index: 1;
       }
       .logo {
-        background: blue;
         width: 50%;
         height: 100%;
         justify-content: flex-start;
         align-items: center;
         border-bottom: unset;
-        margin-inline-start: 10%;
+        margin-inline-start: 5%;
       }
       .logo > img {
         width: 20%;
       }
-      .nav-links {
+      nav {
         width: unset;
         align-items: center;
         justify-content: flex-end;
@@ -196,7 +232,7 @@ header {
         width: 50%;
       }
       .nav-links a {
-        font-size: clamp(0.7rem, 1.5vw, 0.8rem);
+        font-size: 16px;
         align-items: center;
         width: 90px;
         height: 30px;
@@ -205,6 +241,19 @@ header {
       .contactTab {
         height: 25px;
         width: 70px;
+      }
+      .hamburger {
+        display: none;
+      }
+      
+      .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        background-color: var(--btn);
       }
   }
 
