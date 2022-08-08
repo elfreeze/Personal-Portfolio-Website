@@ -8,7 +8,13 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
+  /*---------------------------------
+  Variables
+  ---------------------------------*/
+  :root {
+    --btn: ;
+    --heading: ;
+  }
   /*--------------------------------
    beginning of global styling 
    --------------------------------*/
@@ -82,17 +88,14 @@
   
 
   /*----- navigation menu styling -----*/
-#navbar {
+header {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 70px;
+    height: 100px;
     width: 100%;
     background: #fff;
-    position: fixed;
-    top: 0;
-    z-index: 1;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
   }
   .logo {
@@ -105,12 +108,9 @@
     margin: auto; 
     border-bottom: 1px solid #000;
   }
-  .logo a {
-    font-family: 'Poppins', sans-serif;
-    font-size: clamp(1.25rem, 2.5vw, 1.6rem);
-    color: #034694;
-    transition: transform 0.3s ease-out;
-    text-decoration: none;
+  .logo > a > img {
+    width: 100%;
+    height: 100%;
   }
   .logo a:hover {
     color: #1381ff;
@@ -121,7 +121,7 @@
     height: 50%;
     display: flex;
     align-items: center;
-    
+    list-style-type: none;
   }
   .nav-links a {
     display: flex;
@@ -167,21 +167,26 @@
     } 
   }
   @media only screen and (min-width: 1024px) {
-    #navbar {
+    header {
+      background: red;
         flex-direction: row;
         justify-content: space-between;
-        height: 50px;
-        width: 100%;
+        height: 100px;
+        position: fixed;
+        top: 0;
+        z-index: 1;
       }
       .logo {
-        text-align: left;
-        width: 30%;
+        background: blue;
+        width: 50%;
+        height: 100%;
         justify-content: flex-start;
+        align-items: center;
         border-bottom: unset;
-        margin-inline-start: 40px;
+        margin-inline-start: 10%;
       }
-      .logo a {
-        font-size: clamp(1.25rem, 2.5vw, 1.6rem);
+      .logo > img {
+        width: 20%;
       }
       .nav-links {
         width: unset;
