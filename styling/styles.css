@@ -32,9 +32,11 @@ p {
   margin: 10px;
 }
 .btn {
+  border-radius: 5px;
+  height: 40px;
+  border: 2px solid #034694; 
   margin: 10px 20px;
   width: auto;
-  background: transparent;
   color: #000;
   text-align: center;
   text-decoration: none;
@@ -49,18 +51,18 @@ p {
   background: transparent;
   transform: translateY(3px);
 }
-.btn-show-all {
-  border: 2px solid #034694; 
-  border-radius: 5px;
-  height: 40px;
-  width: auto;
-  padding: 10px;
-  color: #000;
-  font-size: 1rem;
+.btn-flex{
   display: flex;
   justify-content: center;
   align-items: center;
   place-self: center;
+}
+
+.btn-show-all {
+  width: auto;
+  padding: 10px;
+  color: #000;
+  font-size: 1rem;
 }
 .back-btn{
   border: 2px solid #034694;
