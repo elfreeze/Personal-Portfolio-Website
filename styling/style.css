@@ -96,12 +96,12 @@
   
 
   /*----- navigation menu styling -----*/
-#navbar {
+.navbar {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  height: 70px;
+  justify-content: space-between;
+  padding: 1rem;
+  height: 80px;
   width: 100%;
   background: #fff;
   position: fixed;
@@ -110,30 +110,41 @@
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 .logo {
-  text-align: center;
-  width: 70%;
-  height: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: auto; 
-  border-bottom: 1px solid #000;
-}
-.logo a {
+  height: 100%;
+  width: 100%;
   font-family: 'Alkatra', cursive;
   color: var(--primary);
   transition: transform 0.3s ease-out;
   text-decoration: none;
+  font-size: 2rem;
 }
 .logo a:hover {
   color: var(--secondary);
   transform: translateY(2px);
 }
-.nav-links {
-  width: auto;
+.nav-menu, .sec-menu {
   display: flex;
+  flex-direction: column;
   align-items: center;
-    
+  justify-content: space-between;
+  position: fixed;
+  left: -100%;
+  top: 5rem;
+  background-color: #fff;
+  width: 100%;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3s;
+  box-shadow:
+      0 10px 27px rgba(0, 0, 0, 0.05);
+}
+
+.nav-menu.active, .sec-menu.active {
+  left: 0;
+}
+.nav-item {
+  margin: 2.5rem 0;
+  list-style-type: none;
 }
 .nav-link {
   display: flex;
@@ -148,8 +159,36 @@
   color: var(--secondary);
   transform: translateY(2px);
 }
+
+.hamburger {
+  display: block;
+  cursor: pointer;
+  width: 20%;
+  margin: 0 auto;
+}
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: var(--primary);
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
   @media only screen and (min-width: 640px) {
-    #navbar {
+    .navbar {
         height: 100px;
     }
       .nav-link {
@@ -159,7 +198,7 @@
     }
   }
   @media only screen and (min-width: 1024px) {
-    #navbar {
+    .navbar {
         flex-direction: row;
         justify-content: flex-start;
         align-items: center;
@@ -178,7 +217,7 @@
       .logo a {
         font-size: 2.5rem;
       }
-      .nav-links {
+      .nav-menu {
         align-items: center;
         justify-content: flex-start;
         margin-inline-end: 50px;
