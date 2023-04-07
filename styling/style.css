@@ -99,8 +99,7 @@
   justify-content: space-between;
   width: 100%;
   height: 100%;
-  max-width: 1440px;
-  padding-inline: 2rem;
+  padding-inline: 1rem;
 }
 .logo {
   display: flex;
@@ -111,7 +110,10 @@
   color: var(--primary);
   transition: transform 0.3s ease-out;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 2rem;
+}
+.logo > .code {
+  color: inherit;
 }
 .nav-menu {
   display: flex;
@@ -205,9 +207,11 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        max-width: 1440px;
+        padding: 2rem 3rem;
       }
       .logo {
-        font-size: 2rem;
+        font-size: 2.5rem;
         width: 35%;
       }
       .nav-menu {
@@ -384,15 +388,27 @@
 
 
 @media only screen and (min-width: 640px) {
+  .welcome-section {
+    padding: 2rem;
+  }
   .text-container > h1 {
-    font-size: 40px;
+    font-size: 3.5rem;
+    margin-block: 1rem;
+    height: 5rem;
   }
-   
+  .text-container > h1 > span {
+    width: 16rem;
+  }
   .intro-text {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
-  .about-link {
-    font-size: clamp(1.3rem, 2vw, 1.6rem);
+  .contact-links {
+    padding: 1rem auto;
+    height: 5rem;
+  }
+  .contact-link {
+    margin: 10px;
+    font-size: 3rem;
   }
   .img-container {
     height: auto;
@@ -401,15 +417,11 @@
     max-width: 300px;
     border-radius: 50%;
   }
-  .contact-links {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .contact-link {
-    margin: 10px;
-    font-size: 1.9rem;
+  .contact-btn-container {
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+    height: 10rem;
   }
 }
 
@@ -457,13 +469,6 @@
         color: #777;
         padding: 1.5rem 0;
       }
-      
-      .about-link {
-        width: 100%;
-        margin: 10px;
-        font-size: 25px;
-      }
-      
       .img-container {
         height: 20rem;
         width: 30vw;
@@ -511,6 +516,7 @@
       .contact-btn-container {
         display: flex;
         flex-direction: row;
+        justify-content: flex-start;
         width: 100%;
         height: 5rem;
       }
@@ -778,6 +784,7 @@ article h2 {
   }
   .project-summary > p {
     font-size: 1rem;
+    height: 5.3rem;
   }
 
 
