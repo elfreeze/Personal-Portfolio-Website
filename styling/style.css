@@ -481,9 +481,13 @@
         margin-inline-start: 5rem;
         margin-block-end: 20px;
       }
+ 
       .myImg {
         height: 150%;
         width: 150%;
+        position: relative;
+        top: -35%;
+        left: -30%;
       }
       .contact-links {
         justify-content: flex-start;
