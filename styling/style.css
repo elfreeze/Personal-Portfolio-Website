@@ -330,7 +330,7 @@
     margin-block: 1rem;
   }
   .cv-btn {
-    background: #5039e3;
+    background: #9303c3;
     color: #fff;
     width: 10rem;
   }
@@ -455,6 +455,7 @@
         font-size: 1.3rem;
         width: 100%;
         color: #777;
+        padding: 1.5rem 0;
       }
       
       .about-link {
