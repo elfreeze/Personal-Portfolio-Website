@@ -35,7 +35,7 @@
   }
   p {
     font-family: 'Lora', serif;
-    font-size: clamp(1rem, 2vw, 1.25rem);
+    color: #777;
     line-height: 1.5;
     margin: 10px;
   }
@@ -45,18 +45,20 @@
   Buttons Styling
 -----------------------------------*/
 .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  place-self: center;
   background: var(--curved-gradient);
   border: 3px solid transparent; 
   border-radius: 50px;
   height: 40px;
-  padding: 20px;
-  margin: 0 auto;
+  padding: 1.2rem;
   width: auto;
   text-decoration: none;
   font-size: 1rem;
   font-weight: bold;
   font-family: 'Lora', serif;
-  transition: transform 0.3s ease-out;
 }
 .project-btn, .btn-show-all {
   color: #000;
@@ -66,47 +68,39 @@
 }
 .fa-chevron-right {
   margin-inline-start: 10px;
-}
-.btn-show-all:hover {
-  background: #1381ff;
-}
-  
+} 
 .btn:hover { 
   color: #fff;
-  background: var(--secondary);
-  transform: translateY(3px);
+  background: #f94a8d;
 }
-.btn-flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  place-self: center;
-}
+
 .nav-btn {
   width: 100px;
   height: 40px;
   font-family: 'Alkatra', cursive;
-  color: #fff;
   background: var(--primary);
+  color: #fff;
+  margin: unset;
 }
-
-  .contact-details1 {
-    color: #000;
-  }
   
 
   /*----- navigation menu styling -----*/
+.header {
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+}
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 70px;
   width: 100%;
-  background: #fff;
-  position: fixed;
-  top: 0;
-  z-index: 1;
-  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  height: 100%;
+  max-width: 1440px;
+  padding-inline: 2rem;
 }
 .logo {
   display: flex;
@@ -118,11 +112,6 @@
   transition: transform 0.3s ease-out;
   text-decoration: none;
   font-size: 1.5rem;
-  padding-inline-start: 2rem;
-}
-.logo:hover {
-  color: var(--secondary);
-  transform: translateY(2px);
 }
 .nav-menu {
   display: flex;
@@ -130,54 +119,53 @@
   align-items: center;
   justify-content: space-between;
   position: fixed;
+  background: #fff;
   right: -100%;
   top: 4rem;
-  padding: 1rem;
-  background-color: #fff;
-  width: 100%;
+  width: 50%;
   border-top: 2px solid var(--primary);
   border-bottom: 2px solid var(--primary);
   border-radius: 5px;
   text-align: center;
   transition: 0.3s;
-  box-shadow:
-      0 10px 27px rgba(0, 0, 0, 0.05);
+  padding-block: 1rem 2rem;
 }
 .nav-menu.active {
   right: 0;
 }
-.main-menu, .sec-menu  {
+.main-menu {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.sec-menu:nth-child(1), .sec-menu:nth-child(2), .sec-menu:nth-child(3) {
-  flex-direction: row;
-}
+
 .nav-item {
-  margin: 1rem 0;
-  list-style-type: none;
-}
-.nav-link {
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 2.5rem;
+  margin: 1.2rem 0;
+  list-style-type: none;
+  border-radius: 50px;
+}
+.nav-link {
+  width: 100%;
   font-size: 1rem;
   font-family: 'Alkatra', cursive;
   text-decoration: none;
-  transition: transform 0.3s ease-out;
-  color: var(--primary);
+  color: #777;
+}
+.nav-item:hover {
+  background: var(--primary);
 }
 .nav-link:hover {
-  color: var(--secondary);
-  transform: translateY(2px);
+  color: #fff;
 }
-.sec-item {
-  list-style-type: none;
-}
+
 .hamburger {
   display: block;
   cursor: pointer;
-  width: 20%;
+  width: auto;
   margin: 0 auto;
 }
 
@@ -217,7 +205,6 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        border-bottom: 2px solid var(--primary);
       }
       .logo {
         font-size: 2rem;
@@ -235,8 +222,9 @@
         border-bottom: unset;
         text-align: center;
         transition: unset;
-        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
-        margin: 0;
+        margin: unset;
+        padding: unset;
+        background: unset;
       }
       .nav-item {
         margin: 0;
@@ -247,16 +235,16 @@
         margin: 0 2rem;
         display: unset;
       }
-      .main-menu, .sec-menu {
+      .main-menu {
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-end;
         margin: 0;
-        width: 50%;
+        width: 100%;
       }
       .contact-btn {
-        margin-inline-start: 2rem;
+        margin-inline-end: 2rem;
       }
       .hamburger {
         display: none;
@@ -271,7 +259,7 @@
    welcome section styling 
    ---------------------------------*/
 .welcome-section {
-  background: url(/images/background-img1.jpg);
+  background: transparent/*url(/images/background-img1.jpg)*/;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -282,8 +270,8 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin: 70px auto;
-  padding-block-end: 3rem;
+  margin: 0 auto;
+  padding-block: 1.5rem;
   }
   
 .text-container {
@@ -291,38 +279,61 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-block-start: 100px;
-  margin-block-end: 50px;
   } 
   
   .text-container > h1 {
-    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;  
+    font-size: 2.7rem;
     color: var(--primary);
+    height: 4rem;
+    width: 100%;
+    text-align: center;
   }
   .text-container > h1 > span {
     background: var(--primary);
     color: #fff;
-    width: 10rem;
+    width: 12rem;
     display: inline-block;
     text-align: center;
-    margin-inline-start: 0.5rem;
+    padding-inline: 1rem;
+    margin-inline-start: 1rem;
   }
-   
-  .text-container > p {
-    color: #000;
-    font-size: clamp(1.2rem, 0.5vw, 2rem);
+  .hello {
+    font-size: 1.5rem;
+  }
+  .intro-text {
+    font-size: 1.2rem;
+    color: #777;
     width: 100%;
-    padding: 20px;
+    padding: 1rem;
+    margin: 0 auto;
   }
   
   .about-link {
     color: var(--primary);
     font-family: 'Lora', serif;
-    font-size: clamp(1.3rem, 2vw, 1.6rem);
     font-weight: bold;
     margin-block-end: 20px;
   }
-  
+
+  .contact-btn-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 10rem;
+  }
+  .about-me-btn {
+    background: var(--primary);
+    color: #fff;
+    width: 10rem;
+    margin-block: 1rem;
+  }
+  .cv-btn {
+    background: #5039e3;
+    color: #fff;
+    width: 10rem;
+  }
   .img-container {
     width: 70vw;
     border: 10px solid transparent;
@@ -342,15 +353,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 2.5rem;
+    width: 100%;
   }
   .contact-link {
-    margin: 10px;
-    text-align: center;
     text-decoration: none;
-    font-size: 1.9rem;
-    font-weight: bold;
-    font-family: 'Lora', serif;
-    transition: transform 0.3s ease-out;
+    font-size: 1.7rem;
+    padding: 1rem;
   }
   .fa-github {
     color: #000;
@@ -375,23 +384,16 @@
 
 
 @media only screen and (min-width: 640px) {
-  .text-container {
-    margin-block-start: 120px;
-  } 
-  
   .text-container > h1 {
     font-size: 40px;
   }
    
-  .text-container > p {
-    font-size: 25px;
-    padding: 30px 100px;
+  .intro-text {
+    font-size: 2rem;
   }
-  
   .about-link {
     font-size: clamp(1.3rem, 2vw, 1.6rem);
   }
-  
   .img-container {
     height: auto;
     max-height: 300px;
@@ -404,7 +406,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 15%;
   }
   .contact-link {
     margin: 10px;
@@ -416,31 +417,31 @@
     .welcome-section {
         width: auto;
         flex-direction: row;
-        height: 100vh;
-        max-height: 1440px;
+        height: 90vh;
+        max-height: 768px;
         justify-content: center;
         max-width: 1440px;
-        margin: 10px auto;
       }
       .text-container {
-        text-align: left;
-        width: 50vw;
-        height: 100%;
-        padding: 10px 20px;
-        margin: 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: flex-start;
+        text-align: left;
+        height: 100%;
+        margin: 0;
         width: 50%;
-        padding: 10px 20px;
-      } 
-      
+      }
+      .hello {
+        font-size: 2rem;
+        margin: unset;
+      }   
       .text-container > h1 {
         width: 100%;
+        height: 6rem;
         font-size: 4rem;
         text-align: left;
-        margin-block-end: 20px;
-        display: flex;
+        justify-content: flex-start;
       }
       .text-container > h1 > span {
         background: var(--primary);
@@ -448,14 +449,12 @@
         width: 300px;
         display: inline-block;
         text-align: center;
-        margin-inline-start: 10px;
+        margin-inline-start: 1.3rem;
       } 
-      .text-container > p {
-        font-size: 25px;
-        padding: 0;
+      .intro-text {
+        font-size: 1.3rem;
         width: 100%;
-        margin-block-end: 20px;
-        color: #000;
+        color: #777;
       }
       
       .about-link {
@@ -473,19 +472,23 @@
       .myImg {
         height: 100%;
         width: 100%;
-      }  .contact-links {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+      }
+      .contact-links {
+        justify-content: flex-start;
       }
       .contact-link {
-        margin: 10px;
+        margin: unset;
         text-align: center;
         text-decoration: none;
         font-size: 1.9rem;
         font-weight: bold;
         font-family: 'Lora', serif;
         transition: transform 0.3s ease-out;
+        padding: unset;
+        padding-inline-end: 2rem;
+      }
+      .fa-facebook-square {
+        color: #151cdf;
       }
       .fa-github {
         color: #000;
@@ -504,7 +507,12 @@
         background: transparent;
         transform: translateY(3px);
       }
-      
+      .contact-btn-container {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 5rem;
+      }
     
 }
 
