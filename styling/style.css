@@ -812,7 +812,6 @@ footer {
     justify-content: flex-end;
     align-items: center;
     text-align: center;
-    padding: 10px;
     height: 300px;
     width: 100%;
     background: var(--primary);
