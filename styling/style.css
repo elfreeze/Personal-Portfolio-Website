@@ -29,7 +29,7 @@
     font-family: 'Poppins', sans-serif;
   }
   h2, h3 {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
   }
   p {
     font-family: 'Alegreya', serif;
@@ -108,7 +108,7 @@
   color: var(--primary);
   transition: transform 0.3s ease-out;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 .logo > .code {
   color: inherit;
