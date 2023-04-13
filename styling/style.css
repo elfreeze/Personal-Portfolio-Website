@@ -76,7 +76,7 @@
 .nav-btn {
   width: 100px;
   height: 40px;
-  font-family: 'Alkatra', cursive;
+  font-family: 'Lora', serif;
   background: var(--primary);
   color: #fff;
   margin: unset;
@@ -152,7 +152,7 @@
 .nav-link {
   width: 100%;
   font-size: 1rem;
-  font-family: 'Alkatra', cursive;
+  font-family: 'Lora', serif;
   text-decoration: none;
   color: #777;
 }
