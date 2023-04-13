@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Poppins:ital,wght@0,700;1,700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Satisfy&display=swap');
 
 /*-----------------------------------
  global attributes 
@@ -104,7 +104,7 @@
   align-items: center;
   height: 100%;
   width: 100%;
-  font-family: 'Satisfy', cursive;
+  font-family: 'Pacifico', cursive;
   color: var(--primary);
   transition: transform 0.3s ease-out;
   text-decoration: none;
