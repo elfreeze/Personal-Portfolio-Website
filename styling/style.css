@@ -76,7 +76,6 @@
 .nav-btn {
   width: 100px;
   height: 40px;
-  font-family: 'Satisfy', cursive;
   background: var(--primary);
   color: #fff;
   margin: unset;
@@ -114,7 +113,7 @@
 .logo > .code {
   color: inherit;
 }
-.logo > .code:hover {
+.logo .code:hover {
   color: purple;
 }
 .nav-menu {
@@ -154,14 +153,14 @@
 }
 .nav-link {
   width: 100%;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-family: 'Satisfy', cursive;
   fot-weight: bolder;
   text-decoration: none;
   color: #777;
 }
 .nav-item:hover {
-  background: var(--primary);
+  color: var(--primary);
 }
 .nav-link:hover {
   color: #fff;
