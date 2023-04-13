@@ -114,6 +114,9 @@
 .logo > .code {
   color: inherit;
 }
+.logo > .code:hover {
+  color: purple;
+}
 .nav-menu {
   display: flex;
   flex-direction: column;
@@ -153,6 +156,7 @@
   width: 100%;
   font-size: 1rem;
   font-family: 'Satisfy', cursive;
+  fot-weight: bolder;
   text-decoration: none;
   color: #777;
 }
