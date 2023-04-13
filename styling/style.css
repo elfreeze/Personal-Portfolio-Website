@@ -76,7 +76,7 @@
 .nav-btn {
   width: 100px;
   height: 40px;
-  font-family: 'Lora', serif;
+  font-family: 'Satisfy', cursive;
   background: var(--primary);
   color: #fff;
   margin: unset;
@@ -152,7 +152,7 @@
 .nav-link {
   width: 100%;
   font-size: 1rem;
-  font-family: 'Lora', serif;
+  font-family: 'Satisfy', cursive;
   text-decoration: none;
   color: #777;
 }
