@@ -755,7 +755,7 @@ article h2 {
   
   .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-gap: 30px;
     height: auto;
     width: 100%;
@@ -765,7 +765,7 @@ article h2 {
   .project {
     background: #fff;
     border-radius: 20px;
-    height: 400px;
+    height: 450px;
     transition: transform 0.3s ease-in-out;
     text-decoration: none;
     overflow: hidden;
