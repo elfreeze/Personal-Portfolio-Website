@@ -858,6 +858,9 @@ footer {
 .individual-project-page-section ul {
     width: 80%;
 }
+.project-status span {
+ color: var(--primary);
+}
 .project-screenshot {
     width: 90%;
     margin: 1rem;
