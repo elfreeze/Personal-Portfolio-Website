@@ -490,10 +490,7 @@
  
       .myImg {
         height: 150%;
-        width: 150%;
         position: relative;
-        top: -35%;
-        left: -30%;
       }
       .contact-links {
         justify-content: flex-start;
