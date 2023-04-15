@@ -42,10 +42,10 @@
     font-family: 'Alegreya', serif;
   }
 
-main {
- max-width: 1500px;
- margin: 0 auto;
-}
+  main {
+   max-width: 1500px;
+   margin: 0 auto;
+  }
 
 
 /*-----------------------------------
@@ -755,7 +755,7 @@ article h2 {
   
   .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     grid-gap: 30px;
     height: auto;
     width: 100%;
@@ -806,7 +806,11 @@ article h2 {
     height: 5.3rem;
   }
 
-
+@media only screen and (min-width: 1024px) {
+.projects-grid {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+ }
+}
 
 
 
