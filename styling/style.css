@@ -43,9 +43,8 @@
   }
 
 main {
- max-width: 1440px;
- display: flex;
- flex-direction: column;
+ max-width: 1500px;
+ margin: 0 auto;
 }
 
 
@@ -70,7 +69,7 @@ main {
   font-family: 'Lora', serif;
 }
 .project-btn, .btn-show-all {
-  color: #000;
+  
 }
 .fa-chevron-left {
   margin-inline-end: 10px;
@@ -748,7 +747,6 @@ article h2 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width: 1440px;
   }
   .projects-section-heading {
     margin-block-end: 30px;
@@ -833,3 +831,12 @@ footer {
     font-size: 1rem;
   }
   
+
+
+/*--------------------------------
+ Individual project page styling 
+ --------------------------------*/
+
+/*--------------------------------
+ Individual project section styling 
+ --------------------------------*/
