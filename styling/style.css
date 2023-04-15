@@ -824,17 +824,21 @@ footer {
     justify-content: flex-end;
     align-items: center;
     text-align: center;
-    height: 300px;
     width: 100%;
     background: var(--primary);
+    padding: 2rem 1rem;
   }
   
   .copyright-info > p {
     color: #fff;
-    font-family: 'Alkatra', cursive;
+    font-size: 0.7rem;
+    margin: 0;
+  }
+@media only screen and (min-width: 640px) {
+    .copyright-info > p {
     font-size: 1rem;
   }
-  
+ }
 
 
 /*--------------------------------
