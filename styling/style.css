@@ -684,7 +684,7 @@ article h2 {
       }
     
   }
-  @media only screen and (min-width: 1024) {
+  @media only screen and (min-width: 1024px) {
     .about-section {
         display: flex;
         flex-direction: row;
@@ -857,6 +857,7 @@ footer {
 }
 .individual-project-page-section ul {
     width: 80%;
+    margin-inline-start: 2rem;
 }
 .project-status span {
  color: var(--primary);
@@ -865,4 +866,21 @@ footer {
     width: 90%;
     margin: 1rem;
     border-radius: 15px;
+}
+
+
+@media only screen and (min-width: 1024px) {
+ .individual-project-page-section {
+    width: 80%;
+}
+.flex-box {
+    display: flex;
+    justify-content: center;
+    max-width: 1440px;
+}
+ .project-screenshot {
+    width: 30%;
+}
+ 
+ 
 }
