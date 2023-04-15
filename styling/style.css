@@ -840,3 +840,26 @@ footer {
 /*--------------------------------
  Individual project section styling 
  --------------------------------*/
+
+.individual-project-page-section {
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.project-intro-heading {
+    font-size: 1.8rem;
+}
+.individual-project-page-section h2{
+    font-size: 1.4rem;
+}
+.individual-project-page-section ul {
+    width: 80%;
+}
+.project-screenshot {
+    width: 90%;
+    margin: 1rem;
+    border-radius: 15px;
+}
