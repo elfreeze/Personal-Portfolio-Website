@@ -832,7 +832,9 @@ article h2 {
 contact-text-container {
  color: #fff;
 }
-
+.contact-text-container p {
+    color: #fff;
+}
 
 
   /*--------------------------------
