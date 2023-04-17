@@ -813,10 +813,31 @@ article h2 {
 }
 
 
+/*--------------------------------
+ Contact setion styling 
+ --------------------------------*/
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+.contact-info-container {
+    background: var(--primary);
+    padding: 1rem;
+    border-radius: 10px;
+    margin-block: 2rem;
+}
+contact-text-container {
+ color: #fff;
+}
 
 
 
-  /*------- footer section styling --------*/
+  /*--------------------------------
+ Footer setion styling 
+ --------------------------------*/
 
 footer {
     display: flex;
