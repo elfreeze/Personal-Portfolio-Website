@@ -8,7 +8,7 @@
  -----------------------------------*/
 :root {
   --curved-gradient: linear-gradient(#fff, #fff) padding-box, linear-gradient(90deg, #e61062, #5039e3) border-box;
-  --primary: #e61062;
+  --primary: red;
   --secondary: #5039e3;
 }
 
@@ -985,6 +985,6 @@ footer {
     flex-direction: column;
     height: 80vh;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     text-align: center;
 }
