@@ -307,7 +307,7 @@
     text-align: center;
   }  
    .text-container > h1 > span {
-    background: linear-gradient(30deg, #5039e3, #e61062);
+    background: linear-gradient(35deg, #5039e3, #e61062, #5039e3);
     color: #fff;
     width: 12rem;
     display: inline-block;
