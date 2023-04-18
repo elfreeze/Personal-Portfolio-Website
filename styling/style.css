@@ -475,8 +475,6 @@
         justify-content: flex-start;
       }
       .text-container > h1 > span {
-        background: var(--primary);
-        color: #fff;
         width: 300px;
         display: inline-block;
         text-align: center;
