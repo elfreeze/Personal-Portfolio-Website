@@ -981,7 +981,10 @@ footer {
 
 /*--- error page styling --*/
 .error-page-section {
-     display: flex;
-     flex-direction: column;
-     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
