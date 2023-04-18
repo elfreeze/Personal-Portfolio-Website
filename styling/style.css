@@ -8,7 +8,7 @@
  -----------------------------------*/
 :root {
   --curved-gradient: linear-gradient(#fff, #fff) padding-box, linear-gradient(90deg, #e61062, #5039e3) border-box;
-  --primary: red;
+  --primary: #e61062;
   --secondary: #5039e3;
 }
 
