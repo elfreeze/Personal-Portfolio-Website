@@ -834,7 +834,7 @@ article h2 {
     border-radius: 10px;
     margin-block: 2rem;
 }
-contact-text-container {
+contact-text-container .fas {
  color: #fff;
 }
 .contact-text-container p {
