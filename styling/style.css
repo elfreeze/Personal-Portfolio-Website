@@ -861,6 +861,7 @@ label {
     border-radius: 50px;
     margin-block-end: 1rem;
     box-shadow: 0 1px 1px rgba(0,0,0,0.1), 0 0px 1px rgba(0,0,0,0.2);
+    padding: 1rem;
 }
 #contact-form textarea {
     height: 5rem;
@@ -869,6 +870,7 @@ label {
     border-radius: 50px;
     margin-block-end: 1rem;
     box-shadow: 0 1px 1px rgba(0,0,0,0.1), 0 0px 1px rgba(0,0,0,0.2);
+    padding: 1rem;
 }
 
 @media only screen and (min-width: 640px) {
