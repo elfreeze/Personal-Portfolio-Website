@@ -977,3 +977,11 @@ footer {
  
  
 }
+
+
+/*--- error page styling --*/
+.error-page-section {
+     display: flex;
+     flex-direction: column;
+     height: 100vh;
+}
