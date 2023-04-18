@@ -835,19 +835,28 @@ contact-text-container {
 .contact-text-container p {
     color: #fff;
 }
-form#contact-form {
+
+#contact-form {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+label {
+    place-items: left;
+    text-align: left;
+    padding: 0.5rem 1rem;
+    color: #777;
+    font-family: 'Alegreya', serif;
+}
 #contact-form input {
-    height: 1.7rem;
+    height: 2.3rem;
     width: 100%;
     border: none;
     border-radius: 50px;
     margin-block-end: 1rem;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1), 0 0px 1px rgba(0,0,0,0.2);
 }
+
 
 
   /*--------------------------------
