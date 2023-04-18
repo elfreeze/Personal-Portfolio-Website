@@ -195,23 +195,19 @@
 
 
     <form id="contact-form"  action=”mailto:elfreeze818@gmail.com” method=”POST” enctype=”multipart/form-data” >  
+      <label for="name">Full Name</label>
+      <input id="name" type="name" required>
+
+      <label for="email">Email Address</label>
+      <input id="email" type="email" required>
+
+      <label for="number">Phone Number</label>
+      <input id="number" type="number" required m="13">
       
-      <input id="name" type="name" required placeholder="Your Name.">
+      <label for="comment">Message</label> 
+      <textarea id="comment" class="input-textarea" name="comment"></textarea>
 
-
-      <input id="email" type="email" required placeholder="Your Email.">
-
-
-      <input id="number" type="number" required placeholder="Phone Number" m="13">
-
-  <textarea
-  id="comments"
-  class="input-textarea"
-  name="comment"
-  placeholder="Message"
-></textarea>
-
-<input type="submit" class="send-btn" placeholder="Send Message">
+      <a type="submit" class="btn send-btn">Send Message</a>
 
 </form>
 
