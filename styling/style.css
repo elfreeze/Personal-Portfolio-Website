@@ -23,7 +23,6 @@
    --------------------------------*/
   body {
     background: #f0f2f5;
-    font-family: 'Lora', serif;
   }
   h1 {
     font-family: 'Poppins', sans-serif;
@@ -67,9 +66,6 @@
   font-size: 1rem;
   font-weight: bold;
   font-family: 'Lora', serif;
-}
-.project-btn, .btn-show-all {
-  
 }
 .fa-chevron-left {
   margin-inline-end: 10px;
@@ -297,25 +293,25 @@
   align-items: center;
   } 
   
-  .text-container > h1 {
-    display: flex;
-    justify-content: center;  
-    font-size: 2.7rem;
-    color: var(--primary);
-    height: 4rem;
-    width: 100%;
-    text-align: center;
+ .text-container > h1 {
+   display: flex;
+   justify-content: center;  
+   font-size: 2.7rem;
+   color: var(--primary);
+   height: 4rem;
+   width: 100%;
+   text-align: center;
   }  
-   .text-container > h1 > span {
-    background: linear-gradient(35deg, #e61062, #e61062, #5039e3);
-    color: #fff;
-    width: 12rem;
-    display: inline-block;
-    text-align: center;
-    padding-inline: 1rem;
-    margin-inline-start: 1rem;
-    border-top-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
+ .text-container > h1 > span {
+   background: linear-gradient(35deg, #e61062, #e61062, #5039e3);
+   color: #fff;
+   width: 12rem;
+   display: inline-block;
+   text-align: center;
+   padding-inline: 1rem;
+   margin-inline-start: 1rem;
+   border-top-left-radius: 2rem;
+   border-bottom-right-radius: 2rem;
   }
   .hello {
     font-size: 1.2rem;
@@ -327,15 +323,13 @@
     width: 100%;
     padding: 1rem;
     margin: 0 auto;
-  }
-  
+  } 
   .about-link {
     color: var(--primary);
     font-family: 'Lora', serif;
     font-weight: bold;
     margin-block-end: 20px;
   }
-
   .contact-btn-container {
     display: flex;
     flex-direction: column;
@@ -381,18 +375,6 @@
     text-decoration: none;
     font-size: 1.7rem;
     padding: 1rem;
-  }
-  .fa-github {
-    color: #000;
-  }
-  .fa-twitter {
-    color: #7bb2f1;
-  }
-  .fa-whatsapp {
-    color: #088018;
-  }
-  .fa-at {
-    color: #000;
   }
   .contact-link:hover {
     color: #000;
@@ -510,21 +492,6 @@
         transition: transform 0.3s ease-out;
         padding: unset;
         padding-inline-end: 2rem;
-      }
-      .fa-facebook-square {
-        color: #151cdf;
-      }
-      .fa-github {
-        color: #000;
-      }
-      .fa-twitter {
-        color: #7bb2f1;
-      }
-      .fa-whatsapp {
-        color: #088018;
-      }
-      .fa-at {
-        color: #000;
       }
       .contact-link:hover {
         color: #000;
