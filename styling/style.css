@@ -245,27 +245,10 @@
   }
   @media only screen and (min-width: 1024px) {
     .navbar {
-  		  padding-block-start: 1.5rem;
       	padding-inline: 3rem;
 	    }
      .logo {
         font-size: 2.5rem;
-      }
-     .nav-menu {
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        height: 100%;
-        width: 65%;
-        position: unset;
-        border-radius: unset;
-        border-top: unset;
-        border-bottom: unset;
-        text-align: center;
-        transition: unset;
-        margin: unset;
-        padding: unset;
-        background: unset;
       }
       .main-menu {
         display: flex;
@@ -615,17 +598,28 @@
     }
 		.font-container {
     		padding-inline: 2rem 3rem;
+				padding-block: 0;
     		flex: 1;
     		height: 100%;
+				border-right: 1px solid var(--primary);
 		}
     .skills-container {
     		align-items: unset;
-    		justify-content: flex-start;
+    		justify-content: center;
     		flex-direction: column;
-    		width: 30%;
+    		width: 35%;
     		height: 100%;
     		margin: 0 auto;
     		padding-block-end: 0;
+				padding-inline-start: 2rem;
+		}
+		.skills-container {
+		    align-items: unset;
+    		width: 35%;
+    		height: 100%;
+    		margin: 0 auto;
+    		padding-block-end: 0;
+    		padding-inline-start: 2rem;
 		}
     .profile-img-container {
         width: 100%;
@@ -653,15 +647,7 @@
       .skill-container {
         width: 80%; 
         background-color: #808080;
-        margin-right: 20px;
-      }
-      
-      .skill {
-        text-align: center; 
-        padding-top: 10px; 
-        padding-bottom: 10px; 
-        color: #fff; 
-        font-family: 'Poppins',sans-serif;
+        margin-inline-end: 20px;
       }
     
   }
@@ -671,33 +657,9 @@
     }
 			.skills-container {
     		justify-content: flex-start;
-    		flex-direction: column;
-    		height: 100%;
-    		margin: 0 auto;
-    		padding-block-end: 0;
 		}
-      .skills-container > p {
-        font-family: 'Poppins', sans-serif;
-        font-size: 16px;
-        display: block;
-        margin-right: 10px;
-     }
-      .skill-container {
-        width: 80%; 
-        background-color: #808080;
-        margin-right: 20px;
-      }
       
-      .skill {
-        text-align: center; 
-        padding-top: 10px; 
-        padding-bottom: 10px; 
-        color: #fff; 
-        font-family: 'Poppins',sans-serif;
-      }
   }
-
-
 
 
 
