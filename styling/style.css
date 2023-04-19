@@ -209,14 +209,12 @@
       }
       .logo {
         font-size: 2.3rem;
-        width: 35%;
       }
       .nav-menu {
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
         height: 100%;
-        width: 65%;
         position: unset;
         border-radius: unset;
         border-top: unset;
