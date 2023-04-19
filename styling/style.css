@@ -517,10 +517,14 @@
     justify-content: center;
     align-items: center;
     padding: 30px;
+    padding: 1rem;
     max-width: 1440px;
     margin: 0 auto;
- }
-article h2 {
+}
+.font-container {
+    padding-block: 2rem;
+}
+.font-container h2 {
     text-align: center;
 }
 .profile-img-container {
@@ -541,46 +545,44 @@ article h2 {
     height: auto;
 }
 
-
 .skills-container {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
-    width: 85%;
-    height: auto;
-    margin: 20px auto 40px auto;
-  }
-  .skills-heading {
-    margin-block-end: 20px;
-  }
+    width: 90%;
+}
   .skills-container > p {
-    font-family: 'Poppins', sans-serif;
     font-size: 20px;
     display: block;
     margin-right: 10px;
   }
   .skill-container {
-    width: 100%; 
+    width: 100%;
+    height: 2rem;
     background-color: #808080;
-    margin-right: 20px;
-  }
-  
-  .skill {
-    text-align: center; 
-    padding-top: 10px; 
-    padding-bottom: 10px; 
-    color: #fff; 
-    font-family: 'Poppins',sans-serif;
-  }
-  
+    border-radius: 50px;
+    overflow: hidden;
+}
+ .skill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: var(--primary);
+    color: #fff;
+    height: 100%;
+    font-family: 'Alegreya',serif;
+    font-weight: bolder;
+ }
   .html {
-    width: 90%; background-color: #034694;
+    width: 93%;
   } 
   .css {
-    width: 85%; background-color: #034694;
+    width: 95%;
   }
   .js {
-    width: 70%; background-color: #034694;
+    width: 80%;
   }
 
   @media only screen and (min-width: 640px) {
