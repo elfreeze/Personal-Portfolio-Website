@@ -593,7 +593,7 @@
 		.about-section {
 			 flex-direction: row;
  		   justify-content: space-between;
-			 height: 30rem;
+			 height: 50rem;
     }
 		.font-container {
     		padding-inline: 2rem 3rem;
@@ -643,11 +643,8 @@
   }
   @media only screen and (min-width: 1024px) {
 	  .about-section {
-			 height: 25rem;
+			 height: 35rem;
     }
-			.skills-container {
-    		justify-content: flex-start;
-		}
       
   }
 
