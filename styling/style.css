@@ -268,7 +268,7 @@
    welcome section styling 
    ---------------------------------*/
 .welcome-section {
-  background: url(/images/background-img1.jpg);
+  background: inherit/*url(/images/background-img1.jpg)*/;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
