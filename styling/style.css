@@ -516,13 +516,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 30px;
-    padding: 1rem;
+    padding: 2.5rem 1rem;
     max-width: 1440px;
     margin: 0 auto;
 }
 .font-container {
-    padding-block: 2rem;
+    padding-block: 1rem;
 }
 .font-container h2 {
     text-align: center;
@@ -551,12 +550,16 @@
     justify-content: center;
     flex-direction: column;
     width: 90%;
+    padding-block-end: 2rem;
 }
   .skills-container > p {
-    font-size: 20px;
-    display: block;
-    margin-right: 10px;
-  }
+    font-size: 1rem;
+    margin: unset;
+    padding-block-start: 1rem;
+    padding-inline-start: 1rem;
+    text-align: left;
+    width: 100%;
+}
   .skill-container {
     width: 100%;
     height: 2rem;
