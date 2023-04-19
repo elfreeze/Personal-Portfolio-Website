@@ -202,7 +202,7 @@
 .hamburger.active .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
 }
-  @media only screen and (min-width: 640px) {
+  /*@media only screen and (min-width: 640px) {
     .navbar {
         height: 70px;
     }
@@ -211,8 +211,8 @@
         display: flex;
         justify-content: center;
     }
-  }
-  @media only screen and (min-width: 1024px) {
+  }*/
+  @media only screen and (min-width: 640px) {
     .navbar {
         flex-direction: row;
         justify-content: space-between;
