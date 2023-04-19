@@ -397,8 +397,7 @@
     padding: 1rem;
   }
   .contact-link:hover {
-    color: #000;
-    background: var(--primary);
+    color: var(--primary);
     transform: translateY(3px);
   }
   
