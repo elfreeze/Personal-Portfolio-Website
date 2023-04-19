@@ -609,6 +609,7 @@
 
   @media only screen and (min-width: 640px) {
 		.about-section {
+			 flex-direction: row;
  		   justify-content: space-between;
 			 height: 30rem;
     }
