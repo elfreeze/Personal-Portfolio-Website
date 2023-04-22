@@ -219,7 +219,7 @@
        margin: 0;
       }
     .nav-link {
-       font-size: 1.3rem;
+       font-size: 1.1rem;
       }
     .main-menu {
        display: flex;
@@ -289,98 +289,92 @@
   align-items: center;
   } 
   
- .text-container > h1 {
-   display: flex;
-   justify-content: center;  
-   font-size: 2.7rem;
-   color: var(--primary);
-   height: 4rem;
-   width: 100%;
-   text-align: center;
+.text-container > h1 {
+  display: flex;
+  justify-content: center;  
+  font-size: 2.7rem;
+  color: var(--primary);
+  height: 4rem;
+  width: 100%;
+  text-align: center;
   }  
- .text-container > h1 > span {
-   background: var(--primary);
-   color: #fff;
-   width: 12rem;
-   display: inline-block;
-   text-align: center;
-   padding-inline: 1rem;
-   margin-inline-start: 1rem;
-   border-top-left-radius: 2rem;
-   border-bottom-right-radius: 2rem;
+.text-container > h1 > span {
+  background: var(--primary);
+  color: #fff;
+  width: 12rem;
+  display: inline-block;
+  text-align: center;
+  padding-inline: 1rem;
+  margin-inline-start: 1rem;
+  border-top-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
   }
-  .hello {
-    font-size: 1.2rem;
-    color: #777;
+.hello {
+  font-size: 1.2rem;
+  color: #777;
   }
   .intro-text {
-    font-size: 1.2rem;
-    color: #777;
-    width: 100%;
-    padding: 1rem;
-    margin: 0 auto;
-  } 
-  .about-link {
-    color: var(--primary);
-    font-family: 'Lora', serif;
-    font-weight: bold;
-    margin-block-end: 20px;
+  font-size: 1.2rem;
+  color: #777;
+  width: 100%;
+  padding: 1rem;
+  margin: 0 auto;
   }
-  .contact-btn-container {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 10rem;
+.contact-btn-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 10rem;
   }
-  .about-me-btn {
-    background: var(--primary);
-    color: #fff;
-    width: 10rem;
-    margin-block: 1rem;
+.about-me-btn {
+  background: var(--primary);
+  color: #fff;
+  width: 10rem;
+  margin-block: 1rem;
   }
-  .cv-btn {
-    background: #9303c3;
+.cv-btn {
+  background: #9303c3;
     color: #fff;
     width: 10rem;
   }
-  .img-container {
-    height: 35vh;
-    width: 55vw;
-    background: radial-gradient(#5039e3, #e61062);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    margin-block: 2rem;
-    border-bottom-right-radius: 400%;
-    border-top-left-radius: 200%;
-    border-bottom-left-radius: 50%;
-}
-  .myImg {
-    height: 150%;
-    width: 140%;
-    position: relative;
-    top: -35%;
-    left: -30%;
+.img-container {
+  height: 35vh;
+  width: 55vw;
+  background: radial-gradient(#5039e3, #e61062);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  margin-block: 2rem;
+  border-bottom-right-radius: 400%;
+  border-top-left-radius: 200%;
+  border-bottom-left-radius: 50%;
   }
-  .contact-links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 2.5rem;
-    width: 100%;
+.myImg {
+  height: 150%;
+  width: 140%;
+  position: relative;
+  top: -35%;
+  left: -30%;
   }
-  .contact-link {
-    text-decoration: none;
-    font-size: 1.5rem;
-    padding: 1rem;
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.5rem;
+  width: 100%;
   }
-  .contact-link:hover {
-    color: var(--primary);
-    transform: translateY(3px);
+.social-link {
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 0.6rem;
+  }
+.social-link:hover {
+  color: var(--primary);
+  transform: translateY(3px);
   }
   
 
 @media only screen and (min-width: 640px) {
   .welcome-section {
-    padding: 2rem;
+    padding: 2rem 5rem;
   }
   .text-container > h1 {
     font-size: 3.5rem;
@@ -393,13 +387,12 @@
   .intro-text, .hello {
     font-size: 1.5rem;
   }
-  .contact-links {
+  .social-links {
     padding: 1rem auto;
     height: 5rem;
   }
-  .contact-link {
-    margin: 10px;
-    font-size: 3rem;
+  .social-link {
+    font-size: 2rem;
   }
  .img-container {
     height: 50vh;
@@ -417,7 +410,8 @@
     flex-direction: row;
     justify-content: space-around;
     width: 60%;
-    height: 10rem;
+    height: 7rem;
+    margin-block-end: 3rem;
   }
 }
 
@@ -474,10 +468,10 @@
         height: 150%;
         position: relative;
       }
-      .contact-links {
+      .social-links {
         justify-content: flex-start;
       }
-      .contact-link {
+      .social-link {
         margin: unset;
         text-align: center;
         text-decoration: none;
@@ -487,7 +481,7 @@
         padding: unset;
         padding-inline-end: 2rem;
       }
-      .contact-link:hover {
+      .social-link:hover {
         color: var(--primary);
         transform: translateY(3px);
       }
@@ -504,23 +498,23 @@
 /*---------------------------------
  About Section Styling
  --------------------------------*/
- .about-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2.5rem 1rem;
-    max-width: 1440px;
-    margin: 0 auto;
+.about-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .font-container {
-    padding-block: 1rem;
+  padding-block: 1rem;
 }
 .font-container h2 {
-    text-align: center;
+  text-align: center;
 }
 .font-container p {
-     font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 .profile-img-container {
     width: 100%;
@@ -587,17 +581,22 @@
 		.about-section {
 			 flex-direction: row;
  		   justify-content: space-between;
-			 height: 50rem;
+			 height: 55rem;
     }
-		.font-container {
-    		padding-inline: 2rem 3rem;
-				padding-block: 0;
-    		flex: 1;
-    		height: 100%;
-				border-right: 1px solid var(--primary);
-		}
+    .font-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      padding-inline: 2rem;
+      padding-block: 0;
+      flex: 1;
+      height: 100%;
+      width: 60%;
+      border-right: 1px solid var(--primary);
+   }
     .font-container p {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
     .profile-img-container {
         width: 100%;
@@ -618,7 +617,8 @@
     }
      .skills-container {
 		    align-items: unset;
-    		width: 35%;
+        justify-content: flex-start;
+    		width: 30%;
     		height: 100%;
     		margin: 0 auto;
     		padding-block-end: 0;
@@ -637,7 +637,7 @@
   }
   @media only screen and (min-width: 1024px) {
 	  .about-section {
-			 height: 35rem;
+			 height: 40rem;
     }
       
   }
