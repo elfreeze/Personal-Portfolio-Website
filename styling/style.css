@@ -682,6 +682,7 @@
   justify-content: space-evenly;
   height: 50%;
   padding-block-end: 1rem;
+  padding-inline: 1rem;
 }
 .code {
   color: #fff;
@@ -697,7 +698,6 @@
   color: var(--primary);
 }
 .project-summary {
-  padding: 0 0.5rem;
   font-size: 1rem;
   text-align: start;
 }
