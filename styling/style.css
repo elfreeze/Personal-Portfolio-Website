@@ -7,8 +7,8 @@
  -----------------------------------*/
 :root {
   --curved-gradient: linear-gradient(#fff, #fff) padding-box, linear-gradient(90deg, #e61062, #5039e3) border-box;
-  --primary: #e61062;
-  --secondary: #5039e3;
+  --primary: #0373cd;
+  --secondary: #f86508;
 }
 
 * {
@@ -105,6 +105,7 @@
     inline-size: 120px;
     margin: unset;
     margin-inline-start: 0.5rem;
+    background: var(--secondary);
 }
   
 
@@ -251,7 +252,6 @@
      }
     .contact-btn {
        margin-inline-end: 2rem;
-       
      }
      .hamburger {
        display: none;
@@ -326,7 +326,7 @@
   border-top-left-radius: 2rem;
   border-bottom-right-radius: 2rem;
   }
-  .intro-text {
+.intro-text {
   width: 100%;
   padding: 1rem;
   margin: 0 auto;
@@ -344,25 +344,14 @@
   margin-block: 1rem;
   }
 .cv-btn {
-  background: #9303c3;
-    color: #fff;
-    width: 10rem;
-  }
-.img-container {
-  height: 35vh;
-  width: 55vw;
-  background: radial-gradient(#5039e3, #e61062);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-  margin-block: 2rem;
-  border-radius: 50%;
+  background: var(--secondary);
+  color: #fff;
+  width: 10rem;
   }
 .myImg {
-  height: 150%;
-  width: 140%;
-  position: relative;
-  top: -35%;
-  left: -30%;
-  }
+  height: 100%;
+  width: 100%;
+}
 .social-links {
   display: flex;
   justify-content: center;
@@ -399,17 +388,8 @@
   .social-link {
     font-size: 2.3rem;
   }
- .img-container {
-    height: 50vh;
-    max-height: 450px;
-    width: 55vw;
-    max-width: 500px;
-  }
   .myImg {
-    height: 140%;
-    width: 130%;
-    top: -30%;
-    left: -22%;
+    width: 50%;
   }
   .contact-btn-container {
     flex-direction: row;
@@ -437,7 +417,6 @@
         text-align: left;
         height: 100%;
         margin: 0;
-        width: 50%;
       }
       .hello {
         margin: unset;
@@ -459,15 +438,10 @@
         color: #777;
         padding: 1.5rem 0;
       }
-      .img-container {
-        height: 20rem;
-        width: 30vw;
-        margin-inline-start: 5rem;
-        margin-block-end: 20px;
-      }
       .myImg {
-        height: 150%;
-        position: relative;
+        height: 100;
+        width: 100%;
+        border-radius: 50%;
       }
       .social-links {
         justify-content: flex-start;
@@ -692,7 +666,7 @@
   color: #034694;
 }
 .project-title {
-  text-align: center;
+  text-align: left;
   font-size: 1.2rem;
   padding-block: 0.5rem 0;
   color: var(--primary);
@@ -703,6 +677,12 @@
 }
 .project-summary > span {
   color: var(--primary);
+}
+.project-link {
+  color: var(--secondary);
+  text-decoration: none;
+  text-align: left;
+  padding-inline-start: 1rem;
 }
 
 @media only screen and (min-width: 640px) {
