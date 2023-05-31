@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Poppins:ital,wght@0,700;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&family=Alegreya:ital,wght@0,400;0,500;1,400;1,500&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 
 /*-----------------------------------
  global attributes 
@@ -8,7 +8,7 @@
 :root {
   --curved-gradient: linear-gradient(#fff, #fff) padding-box, linear-gradient(90deg, #e61062, #5039e3) border-box;
   --primary: #2d4af1;
-  --secondary: #ff7401;
+  --secondary: #FF5900;
 }
 
 * {
@@ -32,14 +32,14 @@
     color: var(--primary);
   }
   p, li {
-    font-family: 'Alegreya', serif;
+    font-family: 'Lora', serif;
     font-size: 1.2rem;
     color: #777;
     line-height: 1.5;
     margin: 10px;
   }
   a {
-    font-family: 'Alegreya', serif;
+    font-family: 'Lora', serif;
   }
   label {
     font-size: 1.2rem;
@@ -78,18 +78,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  place-self: center;
   background: var(--primary);
   color: #fff;
-  border: 3px solid transparent; 
   border-radius: 50px;
-  block-size: 2rem;
-  padding: 1rem;
-  inline-size: auto;
+  padding: 0.5rem 2rem;
+  min-width: 8rem;
+  max-width: 11rem;
+  height: 2rem;
   text-decoration: none;
   font-size: 1rem;
-  font-weight: bolder;
-  font-family: 'Alegreya', serif;
+  font-family: 'Lora', serif;
 }
 .fa-chevron-left {
   margin-inline-end: 10px;
@@ -99,10 +97,10 @@
 } 
 .btn:hover { 
   color: #fff;
-  background: #f94a8d;
+  background: var(--primary);
+  opacity: 0.8;
 }
 .nav-btn {
-    inline-size: 120px;
     margin: unset;
     margin-inline-start: 0.5rem;
     background: var(--secondary);
@@ -120,7 +118,7 @@
 .navbar {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     width: 100%;
     max-width: 1440px;
     padding-inline: 1rem;
@@ -129,6 +127,7 @@
     display: flex;
     align-items: center;
     height: 100%;
+    width: 90%;
     font-family: 'Pacifico', cursive;
     color: var(--primary);
     transition: transform 0.3s ease-out;
@@ -147,7 +146,7 @@
   background: #fff;
   right: -100%;
   top: 5rem;
-  width: 50%;
+  width: 100%;
   border-top: 2px solid var(--primary);
   border-bottom: 2px solid var(--primary);
   text-align: center;
@@ -179,8 +178,7 @@
   width: 100%;
   height: 100%;
   font-size: 1.2rem;
-  font-family: 'Alegreya', serif;
-  font-weight: bolder;
+  font-family: 'Lora', serif;
   text-decoration: none;
   color: #777;
 }
@@ -222,12 +220,14 @@
       }
     .logo {
         font-size: 2rem;
+        width: 40%;
       }
     .nav-menu {
   		 flex-direction: row;
     	 align-items: center;
     	 justify-content: space-between;
     	 height: 100%;
+       width: 60%;
     	 position: unset;
    	   background: transparent;
 	     border-top: unset;
@@ -240,7 +240,7 @@
        margin: 0;
       }
     .nav-link {
-       font-size: 1.2rem;
+       font-size: 1rem;
       }
     .main-menu {
        display: flex;
@@ -250,8 +250,9 @@
        margin: 0;
        width: 100%;
      }
-    .contact-btn {
-       margin-inline-end: 2rem;
+    .nav-btn {
+       font-size: 1rem;
+       width: 12rem;
      }
      .hamburger {
        display: none;
@@ -325,29 +326,29 @@
   margin-inline-start: 1rem;
   border-top-left-radius: 2rem;
   border-bottom-right-radius: 2rem;
-  }
+}
 .intro-text {
   width: 100%;
   padding: 1rem;
   margin: 0 auto;
-  }
+}
 .contact-btn-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 100%;
-  height: 10rem;
-  }
+  padding: 2rem;
+}
 .about-me-btn {
   background: var(--primary);
   color: #fff;
-  width: 10rem;
-  margin-block: 1rem;
-  }
+  margin-block-end: 1rem;
+}
 .cv-btn {
   background: var(--secondary);
   color: #fff;
-  width: 10rem;
-  }
+}
 .myImg {
   height: 100%;
   width: 100%;
@@ -393,10 +394,12 @@
   }
   .contact-btn-container {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
     width: 60%;
-    height: 7rem;
-    margin-block-end: 3rem;
+  }
+  .about-me-btn {
+    margin-block-end: 0;
   }
 }
 
@@ -438,6 +441,8 @@
       .intro-text {
         width: 100%;
         color: #777;
+        padding: 0;
+        padding-block: 2rem;
         padding-inline-end: 3rem;
       }
       .myImg {
@@ -466,9 +471,11 @@
         flex-direction: row;
         justify-content: flex-start;
         width: 100%;
-        height: 5rem;
+        padding: 1rem 0;
       }
-    
+      .about-me-btn {
+        margin-inline-end: 1rem;
+      }
 }
 
 /*---------------------------------
@@ -536,7 +543,7 @@
     background: var(--primary);
     color: #fff;
     height: 100%;
-    font-family: 'Alegreya',serif;
+    font-family: 'Lora', serif;
     font-weight: bolder;
  }
   .html {
@@ -640,7 +647,8 @@
   align-items: center;
   justify-content: flex-start;
   background: #fff;
-  border-radius: 1rem;
+  border-top-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
   height: 500px;
   transition: transform 0.3s ease-in-out;
   text-decoration: none;
@@ -721,6 +729,8 @@
     flex-direction: column;
     justify-content: space-evenly;
     height: 23rem;
+    border-top-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
 }
 .contact-text-container {
     border-bottom: 1px solid #ffffff42;
@@ -744,7 +754,7 @@ label {
     text-align: left;
     padding: 0.5rem 1rem;
     color: #777;
-    font-family: 'Alegreya', serif;
+    font-family: 'Lora', serif;
 }
 #contact-form input {
     height: 2.3rem;
@@ -756,13 +766,17 @@ label {
     padding: 1rem;
 }
 #contact-form textarea {
-    height: 6rem;
-    width: 100%;
-    border: none;
-    border-radius: 50px;
-    margin-block-end: 2rem;
-    box-shadow: 0 1px 1px rgba(0,0,0,0.1), 0 0px 1px rgba(0,0,0,0.2);
-    padding: 1rem 2rem;
+  height: 6rem;
+  width: 100%;
+  border: none;
+  border-radius: 50px;
+  margin-block-end: 2rem;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1), 0 0px 1px rgba(0,0,0,0.2);
+  padding: 1rem 2rem;
+}
+a.btn.send-btn {
+  background: var(--secondary);
+  place-self: center;
 }
 
 @media only screen and (min-width: 640px) {
