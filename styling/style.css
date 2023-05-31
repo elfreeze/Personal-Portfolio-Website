@@ -118,7 +118,6 @@
 .navbar {
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
     width: 100%;
     max-width: 1440px;
     padding-inline: 1rem;
@@ -200,7 +199,7 @@
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: var(--primary);
+  background-color: var(--secondary);
 }
 .hamburger.active .bar:nth-child(2) {
   opacity: 0;
@@ -249,10 +248,6 @@
        justify-content: flex-end;
        margin: 0;
        width: 100%;
-     }
-    .nav-btn {
-       font-size: 1rem;
-       width: 12rem;
      }
      .hamburger {
        display: none;
