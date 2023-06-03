@@ -353,7 +353,7 @@
         max-height: 768px;
         justify-content: center;
         max-width: 1440px;
-        padding: 2rem 0;
+        padding: 0;
       }
       .text-container {
         display: flex;
@@ -449,16 +449,15 @@
   font-size: 1.5rem;
 }
 .skills-container {
-  display: flex;  align-items: center;
-  justify-content: center;
+  display: flex;
+  align-items: center;
   flex-direction: column;
-  width: 30%;
-  padding-block-end: 2rem;
+  width: 100%;
 }
 .skill-container {
   display: flex;
   flex-wrap: wrap;
-  padding: 1rem;
+  /* padding: 1rem; */
 }
 .skill {
     display: flex;
@@ -490,6 +489,9 @@
       height: 100%;
       width: 60%;
       border-right: 1px solid var(--primary);
+   }
+   .skills-container {
+      width: 30%;
    }
     
   }
