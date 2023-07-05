@@ -8,7 +8,8 @@
 :root {
   --curved-gradient: linear-gradient(#fff, #fff) padding-box, linear-gradient(90deg, #e61062, #5039e3) border-box;
   --primary: #2d4af1;
-  --secondary: #FF5900;
+  --secondary: #f15924;
+  --background: #0071bc;
 }
 
 * {
@@ -31,7 +32,7 @@
   }
   h2, h3 {
     font-family: 'Poppins', sans-serif;
-    color: var(--primary);
+    color: var(--background);
     font-size: 2rem;
   }
   p, li, label, a {
@@ -48,7 +49,7 @@
     font-size: 1.2rem;
   }
   main {
-   max-width: 1440px;
+   max-width: 1500px;
    margin: 0 auto;
   }
   @media only screen and (min-width: 640px) {
@@ -64,17 +65,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: var(--primary);
+  background: var(--secondary);
   color: #fff;
-  border-radius: 50px;
+  border-radius: 0.5rem;
+  border: 2px solid #fff;
   padding: 0.5rem 2rem;
   min-width: 8rem;
-  height: 2rem;
+  height: 3rem;
   text-decoration: none;
   font-size: 1rem;
   font-family: 'Pacifico', cursive;
   margin: 0;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 .fa-chevron-left {
   margin-inline-end: 10px;
@@ -97,25 +98,26 @@
 
   /*----- navigation menu styling -----*/
 .header {
-  background: transparent;
+  background: #fff;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 .navbar {
     display: flex;
     align-items: center;
     width: 100%;
-    max-width: 1440px;
+    max-width: 1500px;
     padding-inline: 1rem;
+    margin: 0 auto;
 }
 .logo {
     display: flex;
     align-items: center;
     height: 100%;
-    width: 90%;
+    width: 80%;
     font-family: 'Pacifico', cursive;
-    color: var(--primary);
+    color: var(--background);
     transition: transform 0.3s ease-out;
     text-decoration: none;
     font-size: 1.8rem;
@@ -167,7 +169,7 @@
   font-family: 'Lora', serif;
   font-family: 'Pacifico', cursive;
   text-decoration: none;
-  color: #777;
+  color: #000;
 }
 .nav-item:hover {
   color: var(--primary);
@@ -198,20 +200,21 @@
 .hamburger.active .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
 }
-  @media only screen and (min-width: 640px) {
+  @media only screen and (min-width: 900px) {
     .header {
       padding-inline: 2%;
+      height: 100px;
     }
     .logo {
-        font-size: 2rem;
-        width: 40%;
+        font-size: 1.8rem;
+        width: 30%;
       }
     .nav-menu {
   		 flex-direction: row;
     	 align-items: center;
     	 justify-content: space-between;
     	 height: 100%;
-       width: 60%;
+       width: 70%;
     	 position: unset;
    	   background: transparent;
 	     border-top: unset;
@@ -242,30 +245,12 @@
       }
 
   }
-  @media only screen and (min-width: 1024px) {
-     .logo {
-        font-size: 2.5rem;
-      }
-      .contact-btn {
-        margin-inline-end: 2rem;
-      }
-      .hamburger {
-        display: none;
-      }
-      .bar {
-        display: none;
-      }
-
-  }
 
   /*--------------------------------
    welcome section styling 
    ---------------------------------*/
 .welcome-section {
-  background: inherit;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: var(--background);
   width: 100%;
   height: auto;
   display: flex;
@@ -282,16 +267,20 @@
   justify-content: center;
   align-items: center;
   } 
+
+.hello {
+  color: #fff;
+}
 .text-container > h1 {
   display: flex;
   justify-content: center;
-  color: var(--primary);
+  color: #fff;
   font-size: 3rem;
   width: 100%;
   text-align: center;
-  }  
+}  
 .text-container > h1 > span {
-  background: var(--primary);
+  background: var(--secondary);
   color: #fff;
   display: inline-block;
   text-align: center;
@@ -301,6 +290,7 @@
   border-bottom-right-radius: 2rem;
 }
 .intro-text {
+  color: #fff;
   width: 100%;
   padding: 1rem;
   margin: 0 auto;
@@ -339,6 +329,7 @@
   text-decoration: none;
   font-size: 1.5rem;
   padding: 0.6rem;
+  color: #000;
   }
 .social-link:hover {
   color: var(--primary);
@@ -361,10 +352,10 @@
         justify-content: center;
         align-items: flex-start;
         text-align: left;
-        height: 100%;
+        height: 80%;
         width: 60%;
         margin: 0;
-        padding-inline-end: 2rem;
+        padding-inline: 1rem;
       }
       .hello {
         margin: unset;
@@ -374,7 +365,7 @@
         text-align: left;
         justify-content: flex-start;
         font-size: 4rem;
-        margin-block: 1rem;
+        margin-block: 3rem;
       }
       .text-container > h1 > span {
         width: 300px;
@@ -383,13 +374,12 @@
       } 
       .intro-text {
         width: 100%;
-        color: #777;
         padding: 0;
         padding-block: 1rem;
         padding-inline-end: 2rem;
       }
       .myImg {
-        height: 70%;
+        height: 60%;
         width: 30%;
         border-radius: 50%;
       }
@@ -432,7 +422,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 1rem 2rem;
+  padding: 2rem;
   margin: 0 auto;
 }
 .about-me-container {
@@ -470,7 +460,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: var(--primary);
+    background: var(--background);
     color: #fff;
     font-family: 'Lora', serif;
     border-radius: 0.5rem;
@@ -516,7 +506,6 @@
 }
 .projects-section-heading {
   padding-block-end: 2rem;
-  color: var(--primary);
 } 
 .projects-grid {
   display: grid;
@@ -568,7 +557,7 @@
 .project-title {
   text-align: left;
   font-size: 1.5rem;
-  color: var(--primary);
+  color: var(--background);
   width: 100%;
   padding-block-start: 1rem;
   margin: 0;
@@ -580,7 +569,7 @@
   margin-block: 5px;
 }
 .project-summary > span {
-  color: var(--primary);
+  color: var(--background);
 }
 .project-link {
   color: var(--secondary);
@@ -615,14 +604,14 @@
     align-items: center;
 }
 .contact-info-container {
-    background: var(--primary);
+    background: var(--background);
     padding: 1rem;
     margin-block: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     min-height: 30rem;
-    min-width: 280px;
+    min-width: 300px;
     border-top-left-radius: 1.5rem;
     border-bottom-right-radius: 1.5rem;
 }
@@ -706,7 +695,7 @@ footer {
     align-items: center;
     text-align: center;
     width: 100%;
-    background: var(--primary);
+    background: var(--background);
     padding: 2rem 1rem;
   }
   
