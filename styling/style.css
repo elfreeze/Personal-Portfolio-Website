@@ -31,7 +31,7 @@
     justify-content: center;
   }
   h2, h3 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Pacifico', cursive;
     color: var(--primary);
     font-size: 2rem;
   }
@@ -110,6 +110,7 @@
 .navbar {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     width: 100%;
     height: 70px;
     max-width: 1500px;
@@ -119,13 +120,13 @@
 .logo {
     display: flex;
     align-items: center;
-    height: 100%;
-    width: 80%;
     font-family: 'Pacifico', cursive;
+    font-weight: 900;
     color: var(--primary);
     transition: transform 0.3s ease-out;
     text-decoration: none;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+    margin: 0;
 }
 .logo:hover .logo-code {
   color: var(--secondary);
@@ -207,13 +208,14 @@
 }
   @media only screen and (min-width: 900px) {
     .header {
-      padding-inline: 2%;
       height: 100px;
     }
     .logo {
         font-size: 1.8rem;
-        width: 30%;
       }
+    .navbar {
+      padding-inline: 2rem;
+    }
     .nav-menu {
   		 flex-direction: row;
     	 align-items: center;
@@ -250,6 +252,11 @@
       }
 
   }
+  @media only screen and (min-width: 1024px) {
+    .logo {
+        font-size: 2rem;
+      }
+  }
 
   /*--------------------------------
    welcome section styling 
@@ -264,7 +271,7 @@
   justify-content: center;
   text-align: center;
   margin: 0 auto;
-  padding-block: 1.5rem;
+  padding-block-start: 1.5rem;
   margin-block-start: 70px;
   }
 .text-container {
@@ -324,8 +331,10 @@
   background: var(--secondary);
 }
 .myImg {
-  height: 100%;
-  width: 100%;
+  height: 30rem;
+  width: auto;
+  padding: 0;
+  margin: 0;
 }
 .social-links {
   display: flex;
@@ -340,6 +349,9 @@
   padding: 0.6rem;
   color: #000;
   }
+  .fab {
+    color: #fff;
+  }
 .social-link:hover {
   color: var(--primary);
   transform: translateY(3px);
@@ -352,8 +364,9 @@
         flex-direction: row;
         height: 100vh;
         max-height: 768px;
-        justify-content: center;
-        padding: 0;
+        justify-content: space-around;
+        padding: 1rem;
+        margin-block-start: 100px;
       }
       .text-container {
         display: flex;
@@ -387,8 +400,8 @@
         padding-inline-end: 2rem;
       }
       .myImg {
-        height: 50%;
-        width: 30%;
+        height: 20rem;
+        width: 20rem;
         border-radius: 50%;
       }
       .social-links {
@@ -430,7 +443,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
+  padding: 1rem;
   margin: 0 auto;
 }
 .about-me-container {
@@ -487,7 +500,7 @@
       padding-block: 0;
       margin: 0;
       height: 100%;
-      width: 60%;
+      width: 70%;
       border-right: 1px solid var( --primary);
    }
    .skills-container {
