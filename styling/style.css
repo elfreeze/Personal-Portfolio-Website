@@ -2,9 +2,9 @@
 
 
 
-/*-----------------------------------
+/*-------------------
  global attributes 
- -----------------------------------*/
+ -------------------*/
 :root {
   --curved-gradient: linear-gradient(#fff, #fff) padding-box, linear-gradient(90deg, #e61062, #5039e3) border-box;
   --blue: #2d4af1;
@@ -18,9 +18,12 @@
     box-sizing: border-box;
   }
   
-  /*--------------------------------
-   Global styling 
-   --------------------------------*/
+  /*------------------
+   global styling 
+   ------------------*/
+  html {
+    font-size: 100%;
+  }
   body {
     background: #f0f2f5;
   }
@@ -54,7 +57,7 @@
   }
   @media only screen and (min-width: 640px) {
     h2, h3 {
-      font-size: 3rem;
+      font-size: 2.5rem;
     }
   }
 
@@ -463,6 +466,7 @@
 }
 .skills-heading {
   font-size: 2rem;
+  color: var(--secondary);
 }
 .skills-container {
   display: flex;
@@ -650,7 +654,9 @@ label {
     text-align: left;
     padding: 0.5rem 1rem;
     color: #777;
-    font-family: 'Lora', serif;
+    font-family: 'Pacifico', cursive;
+    margin: 0;
+    font-size: 1rem;
 }
 #contact-form input {
     height: 2.3rem;
