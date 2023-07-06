@@ -366,7 +366,6 @@
         max-height: 768px;
         justify-content: space-around;
         padding: 1rem;
-        margin-block-start: 100px;
       }
       .text-container {
         display: flex;
