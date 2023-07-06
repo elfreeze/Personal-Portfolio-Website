@@ -7,9 +7,9 @@
  -----------------------------------*/
 :root {
   --curved-gradient: linear-gradient(#fff, #fff) padding-box, linear-gradient(90deg, #e61062, #5039e3) border-box;
-  --primary: #2d4af1;
+  --blue: #2d4af1;
   --secondary: #f15924;
-  --background: #0071bc;
+  --primary: #0071bc;
 }
 
 * {
@@ -32,7 +32,7 @@
   }
   h2, h3 {
     font-family: 'Poppins', sans-serif;
-    color: var(--background);
+    color: var(--primary);
     font-size: 2rem;
   }
   p, li, label, a {
@@ -122,7 +122,7 @@
     height: 100%;
     width: 80%;
     font-family: 'Pacifico', cursive;
-    color: var(--background);
+    color: var(--primary);
     transition: transform 0.3s ease-out;
     text-decoration: none;
     font-size: 1.8rem;
@@ -255,7 +255,7 @@
    welcome section styling 
    ---------------------------------*/
 .welcome-section {
-  background: var(--background);
+  background: var( --primary);
   width: 100%;
   height: auto;
   display: flex;
@@ -364,7 +364,6 @@
         height: 80%;
         width: 60%;
         margin: 0;
-        padding-inline: 1rem;
       }
       .hello {
         margin: unset;
@@ -388,7 +387,7 @@
         padding-inline-end: 2rem;
       }
       .myImg {
-        height: 60%;
+        height: 50%;
         width: 30%;
         border-radius: 50%;
       }
@@ -451,7 +450,7 @@
   margin-block-end: 1rem;
 }
 .skills-heading {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 .skills-container {
   display: flex;
@@ -469,7 +468,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: var(--background);
+    background: var( --primary);
     color: #fff;
     font-family: 'Lora', serif;
     border-radius: 0.5rem;
@@ -489,19 +488,14 @@
       margin: 0;
       height: 100%;
       width: 60%;
-      border-right: 1px solid var(--primary);
+      border-right: 1px solid var( --primary);
    }
    .skills-container {
       width: 30%;
       height: 100%;
    }
+  }
     
-  }
-  @media only screen and (min-width: 1024px) {
-	  .about-section {
-			 }
-  }
-
 
 /*--------------------------------
  projects section styling 
@@ -520,7 +514,7 @@
 } 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 2rem;
   width: 100%;
   margin: 0 auto;
@@ -532,16 +526,15 @@
   align-items: center;
   justify-content: flex-start;
   background: #fff;
-  border-top-left-radius: 1.5rem;
-  border-bottom-right-radius: 1.5rem;
-  min-height: 30rem;
+  border-radius: 10px;
+  min-height: 15rem;
   transition: transform 0.3s ease-in-out;
   text-decoration: none;
   overflow: hidden;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 .project-image {
-  height: 50%;
+  height: 40%;
   width: 100%;
   object-fit: cover;
 }
@@ -549,9 +542,10 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  height: 50%;
-  padding-block-end: 1rem;
+  height: 60%;
+  padding-block-end: 0.5rem;
   padding-inline: 1rem;
+  border-top: 3px solid var(--primary);
 }
 .code {
   display: none;
@@ -565,9 +559,8 @@
 .project-title {
   text-align: left;
   font-size: 1.5rem;
-  color: var(--background);
+  color: var( --primary);
   width: 100%;
-  padding-block-start: 1rem;
   margin: 0;
 }
 .project-summary {
@@ -577,7 +570,7 @@
   margin-block: 5px;
 }
 .project-summary > span {
-  color: var(--background);
+  color: var( --primary);
 }
 .project-link {
   color: var(--secondary);
@@ -593,9 +586,6 @@
   .project-section {
     padding: 2rem 3rem;
   }
-.projects-grid {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
- }
 }
 
 
@@ -615,7 +605,7 @@
     align-items: center;
 }
 .contact-info-container {
-    background: var(--background);
+    background: var( --primary);
     padding: 1rem;
     margin-block: 2rem;
     display: flex;
@@ -706,7 +696,7 @@ footer {
     align-items: center;
     text-align: center;
     width: 100%;
-    background: var(--background);
+    background: var( --primary);
     padding: 2rem 1rem;
   }
   
