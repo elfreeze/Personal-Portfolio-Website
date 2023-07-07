@@ -530,8 +530,8 @@
 } 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-gap: 3rem;
   width: 100%;
   margin: 0 auto;
   padding-block-end: 3rem;
@@ -543,11 +543,15 @@
   justify-content: flex-start;
   background: #fff;
   border-radius: 10px;
-  min-height: 15rem;
+  height: 25rem;
+  min-height: 30rem;
   transition: transform 0.3s ease-in-out;
   text-decoration: none;
   overflow: hidden;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.project:hover {
+  border: 1px solid var(--secondary);
 }
 .project-image {
   height: 40%;
@@ -574,16 +578,20 @@
 }
 .project-title {
   text-align: left;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  font-family: 'Poppins', sans-serif;
   color: var( --primary);
   width: 100%;
   margin: 0;
+}
+.project:hover .project-title {
+  color: var(--secondary);
 }
 .project-summary {
   font-size: 1rem;
   text-align: start;
   margin: 0;
-  margin-block: 5px;
+  margin-block: 3px;
 }
 .project-summary > span {
   color: var( --primary);
