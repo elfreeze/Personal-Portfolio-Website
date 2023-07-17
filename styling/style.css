@@ -37,13 +37,14 @@
     font-family: 'Pacifico', cursive;
     color: var(--primary);
     font-size: 2rem;
+    margin-block: 1rem;
   }
   p, li, label, a {
     font-family: 'Lora', serif;
     font-size: 1.2rem;
     color: #777;
     line-height: 1.5;
-    margin: 10px;
+    margin-block: 10px;
   }
   a {
     font-family: 'Lora', serif;
@@ -457,7 +458,6 @@
 }
 .about-section h2 {
   text-align: center;
-  margin-block-end: 1rem;
 }
 .skills-heading {
   font-size: 2rem;
@@ -472,7 +472,7 @@
 .skill-container {
   display: flex;
   flex-wrap: wrap;
-  padding: 1rem;
+  padding-inline: 1rem;
 }
 .skill {
     display: flex;
@@ -506,8 +506,55 @@
       height: 100%;
    }
   }
-    
 
+/*--------------------
+Services Section Styling
+--------------------*/
+.services-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin: 0 auto;
+}
+.services-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 22rem;
+  width: 100%;
+  background: #fff;
+  margin-block: 10px;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.1);
+}
+.service > img {
+  height: 70%;
+  width: 100%;
+}
+.service > p {
+  color: var(--secondary);
+  font-size: 1rem;
+}
+
+@media only screen and (min-width: 640px) {
+  .services-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .service {
+    margin-inline: 10px;
+  }
+}
 /*--------------------------------
  projects section styling 
  --------------------------------*/
@@ -521,12 +568,11 @@
   margin: 0 auto;
 }
 .projects-section-heading {
-  padding-block-end: 2rem;
 } 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  grid-gap: 3rem;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  grid-gap: 1rem;
   width: 100%;
   margin: 0 auto;
   padding-block-end: 3rem;
@@ -538,8 +584,7 @@
   justify-content: flex-start;
   background: #fff;
   border-radius: 10px;
-  height: 25rem;
-  min-height: 30rem;
+  height: 22rem;
   transition: transform 0.3s ease-in-out;
   text-decoration: none;
   overflow: hidden;
@@ -573,7 +618,7 @@
 }
 .project-title {
   text-align: left;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-family: 'Poppins', sans-serif;
   color: var( --primary);
   width: 100%;
@@ -583,10 +628,9 @@
   color: var(--secondary);
 }
 .project-summary {
-  font-size: 1rem;
+  font-size: 0.8rem;
   text-align: start;
   margin: 0;
-  margin-block: 3px;
 }
 .project-summary > span {
   color: var( --primary);
@@ -602,9 +646,6 @@
 }
 
 @media only screen and (min-width: 640px) {
-  .project-section {
-    padding: 2rem 3rem;
-  }
 }
 
 
@@ -632,7 +673,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     height: 20rem;
-    width: 95%;
+    width: 100%;
     border-radius: 10px;
 }
 .no-border {
@@ -689,7 +730,7 @@ a.btn.send-btn {
 @media only screen and (min-width: 640px) {
 .contact-container {
     flex-direction: row;
-    width: 90%;
+    width: 100%;
     justify-content: space-between;
 }
  .contact-info-container {
