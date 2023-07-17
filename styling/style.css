@@ -174,7 +174,7 @@
   height: 100%;
   font-size: 1.2rem;
   font-family: 'Lora', serif;
-  font-weight: 900;
+  font-weight: 700;
   text-decoration: none;
   color: #000;
 }
@@ -209,7 +209,7 @@
 }
   @media only screen and (min-width: 1024px) {
     .header {
-      height: 100px;
+      height: 80px;
     }
     .logo {
         font-size: 2rem;
